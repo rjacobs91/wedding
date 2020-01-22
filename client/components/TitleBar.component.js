@@ -13,11 +13,11 @@ class TitleBar extends React.Component {
     render() {
         return (
             <header id={this.props.id} className="titlebar">
-                <span className="bride-name">Jocelyn</span>
+                <span className="bride-name">Katie</span>
                 <span className="groom-name">&nbsp;
-                    <span>&amp;</span> Kal
+                    <span>&amp;</span> Russell
                 </span>
-                <div className="wedding-date">31<sup>st</sup> AUGUST, 2017</div>
+                <div className="wedding-date">1<sup>st</sup> AUGUST, 2020</div>
             </header>
         );
     }

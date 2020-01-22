@@ -66,7 +66,7 @@ const websiteContent = (
 
       <h2>OUR STORY</h2>
       <p>
-        Being children of the modern day and age, our story began with venturing onto OK Cupid. As hesitant as one of us was to engage
+        Being children of the modern day and age, our story began with venturing onto Tinder. As hesitant as one of us was to engage
         herself with a complete stranger online (while the other happily explored with enthusiasm) on our first date it soon became
         apparent that we met the natural occurrences when 2 people meet and all feelings of the unknown disappeared because at that moment
         right in front of me I was meeting my best friend. As the cliche tale goes, the rest is history.
