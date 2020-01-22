@@ -1,7 +1,7 @@
 {
-  "name": "jociandkalwedding",
+  "name": "russellandkatiewedding",
   "version": "1.0.0",
-  "description": "Jocelyn & Kal Wedding Website",
+  "description": "Russell & Katie Wedding Website",
   "private": true,
   "bin": "./bin/app.bundle.js",
   "scripts": {
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaloianm/wedding.git"
+    "url": "git+https://github.com/rjacobs91/wedding.git"
   },
-  "author": "Kaloian Manassiev",
+  "author": "Russell Jacobs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kaloianm/wedding/issues"
+    "url": "https://github.com/rjacobs91/wedding/issues"
   },
-  "homepage": "https://github.com/kaloianm/wedding#readme",
+  "homepage": "https://github.com/rjacobs91/wedding#readme",
   "dependencies": {
     "async": "^2.5.0",
     "body-parser": "^1.15.2",
