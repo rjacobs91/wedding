@@ -94,6 +94,16 @@ const websiteContent = (
 
       <TopicContainer id="wedding" title="Wedding">
         <div className="container">
+          <h2>VENUE</h2>
+          <p>Located to the left of the Loggia and Clock Tower (the Town Hall)
+            and behind the market and row of shops at the back of the
+            harbour. Follow signs to the Hotel Park and continue past the café
+            until you arrive at the Church. Also have a look at the
+            tourist map above.
+          </p>
+
+          <hr/>
+
           <div className="row">
             <div className="one-half column">
               <h2>CEREMONY</h2>
@@ -122,12 +132,6 @@ const websiteContent = (
               </p>
             </div>
           </div>
-          <p>Located to the left of the Loggia and Clock Tower (the Town Hall)
-            and behind the market and row of shops at the back of the
-            harbour. Follow signs to the Hotel Park and continue past the café
-            until you arrive at the Church. Also have a look at the
-            tourist map above.
-          </p>
         </div>
 
         <hr/>
@@ -355,13 +359,13 @@ const websiteContent = (
         </p>
       </TopicContainer>
 
-      <TopicContainer id="thingstodo" title="Things to do in Croatia">
-        <p>Since all of you are coming from different parts of the world, we
+      <TopicContainer id="thingstodo" title="Things to do in Derbyshire">
+        <p>Since a lot of you are coming from different parts of the world, we
           presume that you would like to make a full vacation out of your
-          trip to Croatia. In this section we are listing some of the main
-          tourist places to visit and have suggestions for routes to take.
+          trip to Derbyshire. In this section we are listing some of the main
+          tourist attractions and have suggestions for places to visit.
           As a disclaimer, some of these suggestions are compiled from various
-          online sources such as Lonely Planet and not locations we
+          online sources such as TripAdvisor and not locations we
           have actually visited, but trust us - they are awesome :)
         </p>
         <br/>
