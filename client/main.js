@@ -66,8 +66,8 @@ const websiteContent = (
 
       <h2>OUR STORY</h2>
       <p>
-        Being children of the modern day and age, our story began with venturing onto Tinder. As hesitant as one of us was to engage
-        herself with a complete stranger online (while the other happily explored with enthusiasm) on our first date it soon became
+        Being children of the modern day and age, our story began with venturing onto Tinder. As hesitant as Katie was to engage
+        herself with a complete stranger online (while Russell happily explored with enthusiasm), on our first date it became quickly
         apparent that we met the natural occurrences when 2 people meet and all feelings of the unknown disappeared because at that moment
         right in front of me I was meeting my best friend. As the cliche tale goes, the rest is history.
       </p>
@@ -75,34 +75,18 @@ const websiteContent = (
 
     <TopicContainer id="wedding" title="Wedding">
       <div className="container">
-        <div className="one-half column">
-          <h2>CEREMONY</h2>
-          <p>16:45 @ Sveti Marak Church Courtyard</p>
+          <h2>CEREMONY & RECEPTION</h2>
+          <p>15:00 @ Shottle Hall</p>
           <p>
             <a href="img/svetimarak.jpg"><img className="location-image" src="img/svetimarak.jpg" alt="Sveti Marak (St Mark's)" /></a>
           </p>
           <p style={{textAlign: "center"}}>
-            <a href="https://goo.gl/maps/7oeGdedkbM72">Google Maps</a> | <a href="img/city-hvar-map.jpg">Tourist Map</a>
+            <a href="https://g.page/ShottleHall?share">Google Maps</a> | <a href="img/city-hvar-map.jpg">Tourist Map</a>
           </p>
           <p>Located to the left of the Loggia and Clock Tower (the Town Hall) and behind the market and row of shops at the back of the
              harbour. Follow signs to the Hotel Park and continue past the café until you arrive at the Church. Also have a look at the
              tourist map above.
           </p>
-        </div>
-        <div className="one-half column">
-          <h2>RECEPTION</h2>
-          <p>18:15 @ Bonj les Bains Beach Club</p>
-          <p>
-            <a href="img/bonjlesbainsbeachclub.jpg"><img className="location-image" src="img/bonjlesbainsbeachclub.jpg" alt="Bonj Les Bains Beach Club" /></a>
-          </p>
-          <p style={{textAlign: "center"}}>
-            <a href="https://goo.gl/maps/MGBa94iBaA42">Google Maps</a> | <a href="img/city-hvar-map.jpg">Tourist Map</a>
-          </p>
-          <p>Located a 10 minute walk from Sveti Marak and there will be someone to lead the way. Ladies, please bear in mind that the walk
-             is over a cobbled path, which would not be comfortable if wearing heels, so you might consider bringing a pair of flats for the
-             trek.
-          </p>
-        </div>
       </div>
 
       <hr />
@@ -154,7 +138,7 @@ const websiteContent = (
 
       <hr />
 
-      <h2>GETTING TO CROATIA</h2>
+      <h2>GETTING TO DERBY</h2>
       <p>Being a popular summer tourist destination, getting to Croatia is relatively easy. The closest major city to Hvar is&nbsp;
          <a href="https://goo.gl/maps/a8JeWAEuugN2">Split</a> and it is fairly well connected by pretty much all European airlines
          and some low-cost carriers, such as&nbsp;
