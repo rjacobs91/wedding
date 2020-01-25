@@ -95,11 +95,14 @@ const websiteContent = (
       <TopicContainer id="wedding" title="Wedding">
         <div className="container">
           <h2>VENUE</h2>
-          <p>Located to the left of the Loggia and Clock Tower (the Town Hall)
-            and behind the market and row of shops at the back of the
-            harbour. Follow signs to the Hotel Park and continue past the café
-            until you arrive at the Church. Also have a look at the
-            tourist map above.
+          <p>
+            <img className="large-image" src="img/shottle-hall.jpg"
+                 alt="Shottle Hall"/>
+          </p>
+          <p>The Shottle Hall Estate is nestled amongst rolling hills and offers
+            stunning countryside views. Shottle Hall stands on the edge of Peak
+            District National Park and forms part of the famous Chatsworth House
+            Estate.
           </p>
 
           <hr/>
@@ -371,31 +374,31 @@ const websiteContent = (
         <br/>
 
         <h2><a
-            href="https://www.lonelyplanet.com/croatia/dubrovnik">DUBROVNIK</a>
+            href="https://www.lonelyplanet.com/england/the-midlands/bakewell">BAKEWELL</a>
         </h2>
         <p>
-          <img className="large-image" src="img/dubrovnik.jpg"
-               alt="Dubrovnik old city"/>
+          <img className="large-image" src="img/bakewell.jpg"
+               alt="Bakewell old town"/>
         </p>
-        <p>Located in the very south of the country, Dubrovnik was once called
-          the "Pearl of the Adriatic" for its architecture and importance
-          in trade. We won't pretend that we know much about its history, but it
-          is a place which must be visited and is also a convenient
-          location to fly into and work your way up the coast to Hvar. On top of
-          that, for the 'Game of Thrones' fans, quite a few scenes from
-          this show were filmed in Dubrovnik. See&nbsp;
-          <a href="http://www.telegraph.co.uk/travel/maps-and-graphics/game-of-thrones-filming-locations-guide/">this
+        <p>Perhaps best known for its unique and delicious Pudding, Bakewell has
+          many more tempting treats to offer - ranging from shopping and
+          specialist markets to relaxing strolls and special events.
+          Idyllically situated on the banks of the river Wye, the biggest town
+          in the Peak District National Park's mellow stone buildings, medieval
+          five-arched stone bridge and quaint courtyards are a magnet for
+          painters, photographers and sightseers alike. See&nbsp;
+          <a href="https://www.travelaboutbritain.com/derbyshire/bakewell.php">this
             article</a> for more
           information.
         </p>
         <br/>
 
         <h2><a
-            href="https://www.lonelyplanet.com/croatia/plitvice-lakes-national-park/attractions/plitvice-lakes-national-park/a/poi-sig/1019024/1318903">PLITVICE
-          LAKES</a></h2>
+            href="https://www.peakdistrict.gov.uk/home">PEAK DISTRICT</a>
+        </h2>
         <p>
-          <img className="large-image" src="img/plitvice-lakes.jpg"
-               alt="Plitvice lakes"/>
+          <img className="large-image" src="img/peak-district.jpg"
+               alt="Peak District"/>
         </p>
         <p>This is a beautiful national park covered with heavy forests and
           waterfalls. It is in the northern half of the country and is about 2
