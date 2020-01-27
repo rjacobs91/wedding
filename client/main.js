@@ -94,7 +94,7 @@ const websiteContent = (
 
       <TopicContainer id="wedding" title="Wedding">
         <div className="container">
-          <h2>VENUE</h2>
+          <h2>VENUE - SHOTTLE HALL</h2>
           <p>
             <img className="large-image" src="img/shottle-hall.jpg"
                  alt="Shottle Hall"/>
@@ -110,7 +110,7 @@ const websiteContent = (
           <div className="row">
             <div className="one-half column">
               <h2>CEREMONY</h2>
-              <p>15:00 @ Shottle Hall</p>
+              <p>15:00</p>
               <p>
                 <a href="img/svetimarak.jpg"><img className="location-image"
                                                   src="img/svetimarak.jpg"
@@ -123,7 +123,7 @@ const websiteContent = (
             </div>
             <div className="one-half column">
               <h2>RECEPTION</h2>
-              <p>16:30 @ Shottle Hall</p>
+              <p>16:30</p>
               <p>
                 <a href="img/svetimarak.jpg"><img className="location-image"
                                                   src="img/svetimarak.jpg"
@@ -410,18 +410,24 @@ const websiteContent = (
         </p>
         <br/>
 
-        <h2><a href="https://www.lonelyplanet.com/croatia/dalmatia/hvar-island">HVAR
-          AND THE DALMATIAN ISLANDS</a></h2>
+        <h2><a href="https://www.lonelyplanet.com/croatia/dalmatia/hvar-island">CHATSWORTH
+          HOUSE</a></h2>
         <p>
-          <img className="large-image" src="img/mljet.jpg" alt="Mljet"/>
+          <img className="large-image" src="img/chatsworth.jpg"
+               alt="Chatsworth"/>
         </p>
-        <p>The Dalmatian islands (one of which is Hvar) offer amazing scenery,
-          nice beaches and sailing opportunities. Island hopping, swimming and
-          sunbathing is great way to spend a few days or even a week. Of these
-          islands, Hvar is deemed as the 'party island' while&nbsp;
-          <a href="https://www.lonelyplanet.com/croatia/dalmatia/mljet-island">Mljet</a> is
-          the most scenic and tranquil. It is located between Hvar
-          and Dubrovnik.
+        <p>Chatsworth, home of the Duke and Duchess of Devonshire, is set in the
+          heart of the Peak District in Derbyshire, on the banks of the river
+          Derwent.
+
+          <a href="https://www.chatsworth.org">Chatsworth
+            House</a> has over 30 rooms to explore, from the magnificent
+          Painted Hall, to the family-used chapel, regal State Rooms and
+          beautiful Sculpture Gallery. Chatsworth also houses the Devonshire
+          Collection, one of Europe's most significant art collections, which is
+          continually added to, encompassing Old Masters to contemporary
+          ceramics and artefacts from Ancient Egypt to cutting edge modern
+          sculpture.
         </p>
       </TopicContainer>
 
