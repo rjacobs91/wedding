@@ -20,7 +20,7 @@ const websiteContent = (
       <TitleBar id="titlebar">
       </TitleBar>
 
-      <div style={{height: '200px'}}></div>
+      <div style={{height: '200px'}}/>
 
       <Sticky enabled={true}>
         <Menu id="menu"
@@ -368,8 +368,8 @@ const websiteContent = (
           trip to Derbyshire. In this section we are listing some of the main
           tourist attractions and have suggestions for places to visit.
           As a disclaimer, some of these suggestions are compiled from various
-          online sources such as TripAdvisor and not locations we
-          have actually visited, but trust us - they are awesome :)
+          online sources such as TripAdvisor but trust us we have visited them
+          and they are awesome :)
         </p>
         <br/>
 
@@ -400,18 +400,22 @@ const websiteContent = (
           <img className="large-image" src="img/peak-district.jpg"
                alt="Peak District"/>
         </p>
-        <p>This is a beautiful national park covered with heavy forests and
-          waterfalls. It is in the northern half of the country and is about 2
-          hours
-          drive from Zagreb, the capital of Croatia and 4-5 hours from Split. If
-          you find good flights to Zagreb, Plitvice Lakes can serve as a good
-          midway destination to visit while making you way to the south of the
-          country.
+        <p>The Peak District National Park covers 555 square miles of the most
+          beautiful areas of Derbyshire, Staffordshire, Cheshire, Yorkshire and
+          even parts of Greater Manchester. It was the first National Park ever
+          created in the UK, back in 1951, and it now receives more than 10 million
+          visitors every year. People come here for the stunning countryside,
+          charming towns and villages,and the freedom to escape from the crowds
+          on miles of footpaths, bridleways and cycle trails.
+          &nbsp; <a href="https://www.peakdistrict.org/">This website</a> has
+          plenty of information on all the wonderful things you can do in the
+          National Park.
         </p>
         <br/>
 
-        <h2><a href="https://www.lonelyplanet.com/croatia/dalmatia/hvar-island">CHATSWORTH
-          HOUSE</a></h2>
+        <h2>
+          <a href="https://www.chatsworth.org">CHATSWORTH HOUSE</a>
+        </h2>
         <p>
           <img className="large-image" src="img/chatsworth.jpg"
                alt="Chatsworth"/>
@@ -420,14 +424,47 @@ const websiteContent = (
           heart of the Peak District in Derbyshire, on the banks of the river
           Derwent.
 
-          <a href="https://www.chatsworth.org">Chatsworth
-            House</a> has over 30 rooms to explore, from the magnificent
-          Painted Hall, to the family-used chapel, regal State Rooms and
-          beautiful Sculpture Gallery. Chatsworth also houses the Devonshire
-          Collection, one of Europe's most significant art collections, which is
-          continually added to, encompassing Old Masters to contemporary
-          ceramics and artefacts from Ancient Egypt to cutting edge modern
-          sculpture.
+          <a href="https://www.chatsworth.org">Chatsworth House</a> has over
+          30 rooms to explore, from the magnificent Painted Hall, to the
+          family-used chapel, regal State Rooms and beautiful Sculpture Gallery.
+          Chatsworth also houses the Devonshire Collection, one of Europe's most
+          significant art collections, which is continually added to, encompassing
+          Old Masters to contemporary ceramics and artefacts from Ancient Egypt
+          to cutting edge modern sculpture.
+        </p>
+        <br/>
+
+        <h2>
+          <a href="http://www.matlock.org.uk">MATLOCK</a>
+        </h2>
+        <p>
+          <img className="large-image" src="img/matlock.jpg"
+               alt="Matlock"/>
+        </p>
+        <p>Once famed for its hydro and spa treatments, Matlock's central
+          location, scenic surroundings and public transport links make it a
+          popular base for exploring the best of the Peak District and Derbyshire.
+
+          Crown Square and the river Derwent lie at the heart of Matlock, and
+          the gateway to award-winning Hall Leys Park with its boating lake,
+          riverside walks, tennis courts and skateboard park. Hall Leys is the
+          first of five beautifully-restored public parks stretching along the
+          Derwent to Matlock Bath - a scenic option for a leisurely stroll.
+
+          See&nbsp;
+          <a href="https://www.visitpeakdistrict.com/explore/towns-and-villages/matlock-p680431">this
+            article</a> for more information.
+        </p>
+        <br/>
+
+        <h2>
+          <a href="https://www.nationaltrust.org.uk/ilam-park-dovedale-and-the-white-peak/features/visiting-dovedale">DOVEDALE</a>
+        </h2>
+        <p>
+          <img className="large-image" src="img/dovedale.jpg"
+               alt="Dovedale"/>
+        </p>
+        <p>
         </p>
       </TopicContainer>
 
