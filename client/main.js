@@ -476,9 +476,8 @@ const websiteContent = (
           want anyone to feel obliged to buy us gifts. Your presence is the
           biggest gift.
         </p>
-        <p>If you do feel that you want to give us a gift please remember that
-          just like you, we will only have a suitcase full of clothes
-          so we won't be able to carry any items back.
+        <p>If you do feel that you want to give us a gift please see &nbsp;
+          <a href="https://www.gifts.com/">here</a>
         </p>
         <p>Thank you in advance!
         </p>
