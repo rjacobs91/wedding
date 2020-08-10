@@ -39,19 +39,20 @@ const websiteContent = (
           <div className="row">
             <div className="one-half column">
               <p>
-                <a href="img/jocelyn-baby.jpg"><img className="thumbnail"
-                                                    src="img/jocelyn-baby.jpg"
-                                                    alt="Jocelyn"/></a>
-                Jocelyn is a sweet and giving girl who always sees the beauty in
-                people. As exciting as it was to be rasied in New York, she made
-                it her mission to live and explore as many beautiful cities as
-                she could. Thanks to her beloved sister Wendy it was possible to
-                jump from the neon nights of Miami, through the diverse city of
-                London, to then learn the leisurely ways of Italy. While Jocelyn
-                was exploring and realizing her passion in life, she realized
-                she needed to find her way back to the city she knew her dream
-                job
-                was waiting for her in fashion.
+                <a href="img/katie-baby.jpg">
+                  <img className="thumbnail" src="img/katie-baby.jpg" alt="Katie"/>
+                </a>
+                Katie is an adventurous and thoughtful woman, who is as friendly
+                as she is bossy! Exciting as it is to be raised in the Derbyshire
+                Peak District, Katie made it her mission to live and explore as
+                much of the world as she could. Eagerly she set off to teach English
+                in China, followed by working in a Human Rights organisation in Cambodia.
+                After the culture shock of South East Asia Katie made her way
+                through the diverse streets of London where she met Russell,
+                finally returning to leisurely ways of Derby. While Katie was
+                working in London at a Law firm she would reminisce about her
+                time in China realizing her passion in life, she knew her dream
+                job was to inspire the next generation as a teacher.
               </p>
             </div>
 
