@@ -17,7 +17,7 @@ class TitleBar extends React.Component {
                 <span className="groom-name">&nbsp;
                     <span>&amp;</span> Russell
                 </span>
-                <div className="wedding-date">1<sup>st</sup> AUGUST, 2020</div>
+                <div className="wedding-date">1<sup>st</sup> AUGUST 2021</div>
             </header>
         );
     }
