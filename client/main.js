@@ -48,7 +48,7 @@ const websiteContent = (
                 much of the world as she could. Eagerly she set off to teach English
                 in China, followed by working in a Human Rights organisation in Cambodia.
                 After the culture shock of South East Asia Katie made her way
-                through the diverse streets of London where she met Russell,
+                through the diverse streets of London, where she met Russell,
                 finally returning to leisurely ways of Derby. While Katie was
                 working in London at a Law firm she would reminisce about her
                 time in China realizing her passion in life, she knew her dream
@@ -58,16 +58,10 @@ const websiteContent = (
 
             <div className="one-half column">
               <p>
-                <a href="img/kal-baby.jpg"><img className="thumbnail"
-                                                src="img/kal-baby.jpg"
-                                                alt="Kal"/></a>
-                Kal is a burly and impatient Eastern European. He moved from his
-                homeland Bulgaria to the lovely city of Toronto at the young and
-                tender age of 22. Kal then found himself in the IT mecca of
-                Seattle and realized after 9 years of the beautiful mountain
-                backdrop
-                and serene lakes that he needs to escape to the center of the
-                universe, New York.
+                <a href="img/russell-baby.jpg"><img className="thumbnail"
+                                                src="img/russell-baby.jpg"
+                                                alt="Russell"/></a>
+                Russell is a...
               </p>
             </div>
           </div>
@@ -157,7 +151,7 @@ const websiteContent = (
 
         <hr/>
 
-        <h2>DAY BEFORE THE WEDDING (30 August)</h2>
+        <h2>DAY BEFORE THE WEDDING (31 July)</h2>
         <p>Welcome cocktails will be held on the terrace of <a
             href="https://goo.gl/Vd3ZJd">Restaurant Park Hvar</a> from 18:30 to
           23:30.
@@ -168,7 +162,7 @@ const websiteContent = (
 
         <hr/>
 
-        <h2>DAY AFTER THE WEDDING (1 September)</h2>
+        <h2>DAY AFTER THE WEDDING (2 August)</h2>
         <p>Farewell brunch will be held at 11:00 at the&nbsp;
           <a href="http://www.suncanihvar.com/amfora-hvar-grand-beach-resort/maestral-balkan-grill.html">Maestral
             Restaurant</a>. It is located
@@ -200,8 +194,8 @@ const websiteContent = (
         <h2>GETTING TO DERBYSHIRE</h2>
         <p>Being a popular summer tourist destination, getting to Derbyshire is
           relatively easy. The closest major city to Shottle Hall is&nbsp;
-          <a href="https://goo.gl/maps/a8JeWAEuugN2">Derby</a> and it is fairly
-          well connected by pretty much all European airlines
+          <a href="https://goo.gl/maps/d3AE4vXmwyMt37ST6">Derby</a> and it is
+          fairly well connected by pretty much all European airlines
           and some low-cost carriers, such as&nbsp;
           <a href="https://wizzair.com/#/booking/select-flight/LTN/SPU/2017-08-22/2017-09-02/1/0/0">WizzAir</a> and&nbsp;
           <a href="https://www.eurowings.com/en.html">Eurowings</a>.
