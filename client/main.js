@@ -113,13 +113,13 @@ const websiteContent = (
               <h2>CEREMONY</h2>
               <p>15:00</p>
               <p>
-                <a href="img/svetimarak.jpg"><img className="location-image"
-                                                  src="img/svetimarak.jpg"
-                                                  alt="Sveti Marak (St Mark's)"/></a>
+                <a href="img/shottle-hall-ceremony.jpg"><img className="location-image"
+                                                  src="img/shottle-hall-ceremony.jpg"
+                                                  alt="Shottle Hall Ceremony"/></a>
               </p>
               <p style={{textAlign: "center"}}>
                 <a href="https://g.page/ShottleHall?share">Google Maps</a> | <a
-                  href="img/city-hvar-map.jpg">Tourist Map</a>
+                  href="img/amber-valley-map.jpg">Local Tourist Map</a>
               </p>
             </div>
             <div className="one-half column">
@@ -141,7 +141,7 @@ const websiteContent = (
         <hr/>
 
         <h2>ON THE WEDDING DAY</h2>
-        <p>The ceremony will start at 17:00 at the Sveti Marak church courtyard.
+        <p>The ceremony will start at 15:00 at Shottle Hall courtyard.
           Please arrive 10 to 15 minutes before so everybody can get
           seated and so we can start on time.
         </p>
@@ -150,9 +150,9 @@ const websiteContent = (
           be served.
         </p>
         <p>
-          Wedding attire is summer formal. Gentlemen, please wear a light suit
+          Wedding attire is summer formal. Gentlemen, we'd advise a light suit
           with which you will be comfortable with the heat. And ladies,
-          you look pretty as you are, in your formal summer dresses :)
+          you look pretty as you are, in your summer dresses :)
         </p>
 
         <hr/>
@@ -186,10 +186,10 @@ const websiteContent = (
       </TopicContainer>
 
       <TopicContainer id="logistics" title="Logistics">
-        <p>We understand that going to a different country to attend a wedding
-          can be a daunting experience. That's why in this section
-          we have tried to compile information and links to help make your
-          travel and hotel booking as simple as possible and to give
+        <p>We understand that going to a different city (or country in some
+          cases) to attend a wedding can be a daunting experience. That's why in
+          this section we have tried to compile information and links to help
+          make your travel and hotel booking as simple as possible and to give
           you ideas for how to make a complete vacation out of your trip. Please
           read through it and if you feel you need any additional
           information or help, do not hesitate to contact us.
@@ -197,10 +197,10 @@ const websiteContent = (
 
         <hr/>
 
-        <h2>GETTING TO DERBY</h2>
-        <p>Being a popular summer tourist destination, getting to Croatia is
-          relatively easy. The closest major city to Hvar is&nbsp;
-          <a href="https://goo.gl/maps/a8JeWAEuugN2">Split</a> and it is fairly
+        <h2>GETTING TO DERBYSHIRE</h2>
+        <p>Being a popular summer tourist destination, getting to Derbyshire is
+          relatively easy. The closest major city to Shottle Hall is&nbsp;
+          <a href="https://goo.gl/maps/a8JeWAEuugN2">Derby</a> and it is fairly
           well connected by pretty much all European airlines
           and some low-cost carriers, such as&nbsp;
           <a href="https://wizzair.com/#/booking/select-flight/LTN/SPU/2017-08-22/2017-09-02/1/0/0">WizzAir</a> and&nbsp;
