@@ -70,8 +70,8 @@ const websiteContent = (
         <hr/>
 
         <p>
-          <img className="large-image" src="img/proposal.jpg"
-               alt="Kal Proposing To Jocelyn"/>
+          <img className="large-image" src="img/borneo-proposal.jpg"
+               alt="Russell and Katie"/>
         </p>
 
         <h2>OUR STORY</h2>
