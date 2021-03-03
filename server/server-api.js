@@ -47,6 +47,7 @@ ServerAPI.post('/rsvp', function (req, res) {
         requestId: requestId,
     }
 
+    // TODO: this callback code works but is crap. Need to clean this up
     RSVPCode.findOne({code: guestRSVPDocument.guest.code}, function (err, rsvpCode) {
         if (err) {
             winston.log('info', 'mongodb read failed', requestId, req.body, err);
@@ -64,10 +65,19 @@ ServerAPI.post('/rsvp', function (req, res) {
                     winston.log('info', 'mongodb write failed', requestId, req.body, err);
                     code = 500;
                     responseJson.error = 'Failed to persist reservation to database';
-                } else {
                     res.status(code).json(responseJson);
-                    winston.log('debug', 'rsvp response', requestId, responseJson);
-                    // TODO: I need to mark the code as consumed. Should also tidy this callback hell
+                } else {
+                    RSVPCode.update({code: guestRSVPDocument.guest.code}, {$set: {consumed:true}}, function (err) {
+                        if (err) {
+                            winston.log('info', 'mongodb write failed', requestId, req.body, err);
+                            code = 500;
+                            responseJson.error = 'Failed to persist RSVP code update to database';
+                            res.status(code).json(responseJson);
+                        } else {
+                            winston.log('debug', 'rsvp response', requestId, responseJson);
+                            res.status(code).json(responseJson);
+                        }
+                    })
                 }
             });
         }
