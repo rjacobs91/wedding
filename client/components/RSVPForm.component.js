@@ -139,7 +139,7 @@ class RSVPForm extends React.Component {
             return 'Please give us your valid email';
 
         if (!guestInfo.code || guestInfo.code.trim().empty || !isUUID(guestInfo.code))
-            return 'Please give us a valid RSVP code';
+            return 'Please give us a valid unused RSVP code';
 
         if (!guestInfo.attendance)
             return 'Please specify whether you will be joining us';

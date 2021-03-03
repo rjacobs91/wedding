@@ -44,7 +44,7 @@ class APIClient {
                 if (res.status === 200) {
                     callbackFn(undefined, res);
                 } else if (res.status === 400) {
-                    callbackFn('Please give us a valid RSVP code')
+                    callbackFn('Please give us a valid unused RSVP code')
                 } else {
                     callbackFn('Boo, something went wrong, most likely a bug :( Call us?');
                 }
