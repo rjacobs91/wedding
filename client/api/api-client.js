@@ -18,7 +18,7 @@ class APIClient {
      * 
      * @param guest (required) - JSON
      * @param willAttend (required) - boolean
-     * @param @callbackFn - Function to invoke with the outcome from the RSVP operation with the
+     * @param callbackFn - Function to invoke with the outcome from the RSVP operation with the
      *  following arguments:
      *      errorMsg - Message string with information about the error which occurred or undefined
      *      response - Response string on success or undefined if an error
@@ -41,11 +41,12 @@ class APIClient {
                 callbackFn('Boo, looks like your internizzle is acting up, but there might also be a bug :( Call us?');
             })
             .then(function (res) {
-                if (!res.ok) {
-                    callbackFn('Boo, something went wrong, most likely a bug :( Call us?');
-                }
-                else {
+                if (res.status === 200) {
                     callbackFn(undefined, res);
+                } else if (res.status === 400) {
+                    callbackFn('Please give us a valid RSVP code')
+                } else {
+                    callbackFn('Boo, something went wrong, most likely a bug :( Call us?');
                 }
             });
     }

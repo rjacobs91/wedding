@@ -10,6 +10,7 @@ import uuidV1 from 'uuid/v1';
 import winston from 'winston';
 
 import RSVP from './models/RSVP';
+import RSVPCode from './models/RSVPCode'
 
 // Setup the web server handlers
 const ServerAPI = express();
@@ -35,30 +36,42 @@ ServerAPI.post('/rsvp', function (req, res) {
     const requestId = uuidV1();
     winston.log('debug', 'rsvp request', requestId, req.body);
 
-    var guestRSVPDocument = {
+    const guestRSVPDocument = {
         rsvpId: requestId,
         guest: req.body.guest,
         willAttend: req.body.willAttend,
     };
 
-    // TODO: This is where we check the rsvp code is valid and has not been used
+    let code = 200;
+    let responseJson = {
+        requestId: requestId,
+    }
 
-    new RSVP(guestRSVPDocument).save(function (err) {
-        var code = 200;
-        var responseJson = {
-            requestId: requestId,
-        }
-
+    RSVPCode.findOne({code: guestRSVPDocument.guest.code}, function (err, rsvpCode) {
         if (err) {
-            winston.log('info', 'mongodb write failed', requestId, req.body, err);
+            winston.log('info', 'mongodb read failed', requestId, req.body, err);
             code = 500;
-            responseJson.error = 'Failed to persist reservation to database';
+            responseJson.error = 'Failed to read RSVP codes from database';
+            res.status(code).json(responseJson);
+        } else if (!rsvpCode || rsvpCode.consumed) {
+            winston.log('info', 'invalid rsvp code submitted', requestId, req.body, err);
+            code = 400;
+            responseJson.error = 'An invalid RSVP code was submitted';
+            res.status(code).json(responseJson);
+        } else {
+            RSVP(guestRSVPDocument).save(function (err) {
+                if (err) {
+                    winston.log('info', 'mongodb write failed', requestId, req.body, err);
+                    code = 500;
+                    responseJson.error = 'Failed to persist reservation to database';
+                } else {
+                    res.status(code).json(responseJson);
+                    winston.log('debug', 'rsvp response', requestId, responseJson);
+                    // TODO: I need to mark the code as consumed. Should also tidy this callback hell
+                }
+            });
         }
-
-        res.status(code).json(responseJson);
-
-        winston.log('debug', 'rsvp response', requestId, responseJson);
-    });
+    })
 });
 
 export default ServerAPI;
