@@ -35,8 +35,9 @@ class RSVPForm extends React.Component {
 
         return (
             <div id={this.props.id} className="wizard-form">
-                <p>Please complete the form below to let us know if you will be joining us in Hvar and to inform us of your dietary restrictions
-                   if any.
+                <p>Please complete the form below to let us know if you will be
+                    joining us at Shottle Hall and to inform us of your dietary
+                    restrictions if any, for the evening meal.
                 </p>
                 <br />
 
