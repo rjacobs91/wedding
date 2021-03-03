@@ -402,7 +402,7 @@ const websiteContent = (
           visitors every year. People come here for the stunning countryside,
           charming towns and villages,and the freedom to escape from the crowds
           on miles of footpaths, bridleways and cycle trails.
-          &nbsp; <a href="https://www.peakdistrict.org/">This website</a> has
+          &nbsp;<a href="https://www.peakdistrict.org/">This website</a> has
           plenty of information on all the wonderful things you can do in the
           National Park.
         </p>
@@ -417,10 +417,8 @@ const websiteContent = (
         </p>
         <p>Chatsworth, home of the Duke and Duchess of Devonshire, is set in the
           heart of the Peak District in Derbyshire, on the banks of the river
-          Derwent.
-
-          <a href="https://www.chatsworth.org">Chatsworth House</a> has over
-          30 rooms to explore, from the magnificent Painted Hall, to the
+          Derwent. <a href="https://www.chatsworth.org">Chatsworth House</a> has
+          over 30 rooms to explore, from the magnificent Painted Hall, to the
           family-used chapel, regal State Rooms and beautiful Sculpture Gallery.
           Chatsworth also houses the Devonshire Collection, one of Europe's most
           significant art collections, which is continually added to, encompassing

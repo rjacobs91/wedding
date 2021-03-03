@@ -18,21 +18,16 @@ class APIClient {
      * 
      * @param guest (required) - JSON
      * @param willAttend (required) - boolean
-     * @param guestPlusOne (optional) - JSON object
      * @param @callbackFn - Function to invoke with the outcome from the RSVP operation with the
      *  following arguments:
      *      errorMsg - Message string with information about the error which occurred or undefined
      *      response - Response string on success or undefined if an error
      */
-    rsvp(guest, willAttend, guestPlusOne, callbackFn) {
+    rsvp(guest, willAttend, callbackFn) {
         const requestBody = {
             guest: guest,
             willAttend: willAttend,
         };
-
-        if (guestPlusOne) {
-            requestBody.guestPlusOne = guestPlusOne;
-        }
 
         fetch(this._apiUrl, {
             method: 'POST',

@@ -6,23 +6,21 @@
 
 import mongoose from 'mongoose';
 
-// todo add unique code
+// TODO: Add unique code
 const GuestSchema = new mongoose.Schema({
     name: { type: String, required: true },
     email: String,
     meal: String,
     dietaryRestrictions: String,
-    cocktailEvening: String,
-    hangoverBrunch: String,
+    eveningBefore: String,
+    nextDayHike: String
 });
 
-// todo take out the guestPlusOne
 const RSVPSchema = new mongoose.Schema({
     rsvpId: { type: String, required: true },
     date: { type: Date, default: () => Date.now() },
     guest: { type: GuestSchema, required: true },
-    willAttend: { type: Boolean, required: true },
-    guestPlusOne: GuestSchema,
+    willAttend: { type: Boolean, required: true }
 });
 
 module.exports = mongoose.model('RSVP', RSVPSchema);

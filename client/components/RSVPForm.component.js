@@ -23,8 +23,6 @@ class RSVPForm extends React.Component {
 
         this.state = {
             guestInfo: {},
-            guestPlusOneInfo: {},
-
             submitStatus: null,
         };
     }
@@ -33,7 +31,6 @@ class RSVPForm extends React.Component {
         var self = this;
 
         const guestInfo = this.state.guestInfo;
-        const guestPlusOneInfo = this.state.guestPlusOneInfo;
 
         return (
             <div id={this.props.id} className="wizard-form">
@@ -79,8 +76,8 @@ class RSVPForm extends React.Component {
                         <br />
 
                         {this.renderRadioInput(
-                            'cocktailEvening',
-                            'Will you be joining us for the cocktail evening on 30 August (day before the wedding)*?',
+                            'eveningBefore',
+                            'Will you be joining us for the evening on 31 July (day before the wedding)*?',
                             [
                                 { label: 'YES', value: 'yes' },
                                 { label: 'NO', value: 'no' }
@@ -89,65 +86,13 @@ class RSVPForm extends React.Component {
                         <br />
 
                         {this.renderRadioInput(
-                            'hangoverBrunch',
-                            'Will you be joining us for the boozy farewell brunch on 1 September (day after the wedding)*?',
+                            'nextDayHike',
+                            'Will you be joining us for a hike on 2 August (day after the wedding)*?',
                             [
                                 { label: 'YES', value: 'yes' },
                                 { label: 'NO', value: 'no' }
                             ],
                             guestInfo)}
-                        <br />
-
-                        {this.renderRadioInput(
-                            'attendance',
-                            'Plus one*:',
-                            [
-                                { label: 'I WILL BE BRINGING A PLUS ONE', value: 'yes' },
-                                { label: 'I WILL NOT BE BRINGING A PLUS ONE', value: 'no' }
-                            ],
-                            guestPlusOneInfo)}
-                    </div>
-                }
-                <br />
-
-                {guestInfo.attendance === 'yes' && guestPlusOneInfo.attendance === 'yes' &&
-                    <div>
-                        {this.renderTextInput('name', 'Name:', guestPlusOneInfo)}
-                        <br />
-                        {this.renderRadioInput(
-                            'meal',
-                            'Entreé preference*:',
-                            [
-                                { label: 'I EAT MEAT', value: 'meat' },
-                                { label: 'I DO NOT EAT MEAT', value: 'vegetarian' }
-                            ],
-                            guestPlusOneInfo)}
-                        <br />
-
-                        {this.renderTextInput(
-                            'dietaryRestrictions',
-                            'Other dietary restrictions?',
-                            guestPlusOneInfo)}
-                        <br />
-
-                        {this.renderRadioInput(
-                            'cocktailEvening',
-                            'Will you be joining us for the cocktail evening on 30 August (day before the wedding)*?',
-                            [
-                                { label: 'YES', value: 'yes' },
-                                { label: 'NO', value: 'no' }
-                            ],
-                            guestPlusOneInfo)}
-                        <br />
-
-                        {this.renderRadioInput(
-                            'hangoverBrunch',
-                            'Will you be joining us for the boozy farewell brunch on 1 September (day after the wedding)*?',
-                            [
-                                { label: 'YES', value: 'yes' },
-                                { label: 'NO', value: 'no' }
-                            ],
-                            guestPlusOneInfo)}
                         <br />
                     </div>
                 }
@@ -175,10 +120,10 @@ class RSVPForm extends React.Component {
         function validateGuestDetail(info) {
             if (!info.meal)
                 return "Please let us know of your or your guest's meal preference";
-            if (!info.cocktailEvening)
-                return 'Please let us know whether you will be joining us for the cocktail evening on the day before the wedding';
-            if (!info.hangoverBrunch)
-                return 'Please let us know whether you will be joining us for the farewell brunch on the day after the wedding';
+            if (!info.eveningBefore)
+                return 'Please let us know whether you will be joining us for the evening on the day before the wedding';
+            if (!info.nextDayHike)
+                return 'Please let us know whether you will be joining us for the hike on the day after the wedding';
 
             return null;
         }
@@ -197,23 +142,7 @@ class RSVPForm extends React.Component {
         if (!guestInfo.email || guestInfo.email.trim().empty || !isEmail(guestInfo.email))
             return 'Please give us your valid email';
 
-        const guestValidation = validateGuestDetail(guestInfo);
-        if (guestValidation) {
-            return guestValidation;
-        }
-
-        const guestPlusOneInfo = this.state.guestPlusOneInfo;
-
-        if (!guestPlusOneInfo.attendance)
-            return 'Please let us know whether you will be bringing a plus one';
-
-        if (guestPlusOneInfo.attendance === 'no')
-            return null;
-
-        if (!guestPlusOneInfo.name || guestPlusOneInfo.name.trim().empty)
-            return 'The plus one name field cannot be left empty';
-
-        return validateGuestDetail(guestPlusOneInfo);
+        return validateGuestDetail(guestInfo);
     }
 
     /**
@@ -297,20 +226,12 @@ class RSVPForm extends React.Component {
         }
 
         var guestInfo = Object.assign({}, state.guestInfo);
-        var guestPlusOneInfo = Object.assign({}, state.guestPlusOneInfo);
 
         // TODO: This is a hack, find a way to properly construct the request
         const willAttend = guestInfo.attendance === 'yes';
         delete guestInfo['attendance'];
 
-        if (guestPlusOneInfo.attendance === 'yes') {
-            delete guestPlusOneInfo['attendance'];
-        }
-        else {
-            guestPlusOneInfo = undefined;
-        }
-
-        this.getAPIClient().rsvp(guestInfo, willAttend, guestPlusOneInfo, function (errorMsg, successMsg) {
+        this.getAPIClient().rsvp(guestInfo, willAttend, function (errorMsg, successMsg) {
             if (errorMsg) {
                 self.state.submitStatus = { isError: true, message: errorMsg };
                 self.setState(self.state);

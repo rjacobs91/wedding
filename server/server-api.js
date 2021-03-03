@@ -6,7 +6,6 @@
 
 import bodyParser from 'body-parser';
 import express from 'express';
-import mongoose from 'mongoose';
 import uuidV1 from 'uuid/v1';
 import winston from 'winston';
 
@@ -41,10 +40,6 @@ ServerAPI.post('/rsvp', function (req, res) {
         guest: req.body.guest,
         willAttend: req.body.willAttend,
     };
-
-    if (req.body.guestPlusOne) {
-        guestRSVPDocument.guestPlusOne = req.body.guestPlusOne;
-    }
 
     new RSVP(guestRSVPDocument).save(function (err) {
         var code = 200;
