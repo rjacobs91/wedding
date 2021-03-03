@@ -41,6 +41,8 @@ ServerAPI.post('/rsvp', function (req, res) {
         willAttend: req.body.willAttend,
     };
 
+    // TODO: This is where we check the rsvp code is valid and has not been used
+
     new RSVP(guestRSVPDocument).save(function (err) {
         var code = 200;
         var responseJson = {

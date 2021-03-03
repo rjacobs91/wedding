@@ -1,6 +1,6 @@
 /**
  * Implements the reservation form wizard and interaction with the server.
- * 
+ *
  * id (string): Identifier for the element
  */
 
@@ -9,6 +9,7 @@
 import APIClient from '../api/api-client';
 import isEmail from 'validator/lib/isEmail';
 import React from 'react';
+import isUUID from 'validator/lib/isUUID';
 
 // For compatibility with older Internet Explorer browsers
 require('es6-object-assign').polyfill();
@@ -44,6 +45,7 @@ class RSVPForm extends React.Component {
 
                 {this.renderTextInput('name', 'Name*:', guestInfo)}
                 {this.renderTextInput('email', 'Email*:', guestInfo)}
+                {this.renderTextInput('code', 'RSVP Code*:', guestInfo)}
                 <br />
 
                 {this.renderRadioInput(
@@ -133,14 +135,17 @@ class RSVPForm extends React.Component {
         if (!guestInfo.name || guestInfo.name.trim().empty)
             return 'Please give us your name';
 
+        if (!guestInfo.email || guestInfo.email.trim().empty || !isEmail(guestInfo.email))
+            return 'Please give us your valid email';
+
+        if (!guestInfo.code || guestInfo.code.trim().empty || !isUUID(guestInfo.code))
+            return 'Please give us your unique RSVP code';
+
         if (!guestInfo.attendance)
             return 'Please specify whether you will be joining us';
 
         if (guestInfo.attendance === 'no')
             return null;
-
-        if (!guestInfo.email || guestInfo.email.trim().empty || !isEmail(guestInfo.email))
-            return 'Please give us your valid email';
 
         return validateGuestDetail(guestInfo);
     }
@@ -171,7 +176,7 @@ class RSVPForm extends React.Component {
     /**
      * Renders a text input with a label and the specified set of options. Gets its state and
      * updates the specified @stateObj.
-     * 
+     *
      * The format of the options is an array of JSON objects with the following properties:
      *  label - Label of the option
      *  value - Value of the option to be set on the @stateObj

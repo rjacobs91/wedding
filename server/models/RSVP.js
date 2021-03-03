@@ -6,10 +6,10 @@
 
 import mongoose from 'mongoose';
 
-// TODO: Add unique code
 const GuestSchema = new mongoose.Schema({
     name: { type: String, required: true },
-    email: String,
+    email: { type: String, required: true },
+    code: { type: String, required: true },
     meal: String,
     dietaryRestrictions: String,
     eveningBefore: String,
