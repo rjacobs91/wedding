@@ -191,14 +191,11 @@ const websiteContent = (
 
         <hr/>
 
-        <h2>GETTING TO DERBYSHIRE</h2>
-        <p>Being a popular summer tourist destination, getting to Derbyshire is
-          relatively easy. The closest major city to Shottle Hall is&nbsp;
-          <a href="https://goo.gl/maps/d3AE4vXmwyMt37ST6">Derby</a> and it is
-          fairly well connected by pretty much all European airlines
-          and some low-cost carriers, such as&nbsp;
-          <a href="https://wizzair.com/#/booking/select-flight/LTN/SPU/2017-08-22/2017-09-02/1/0/0">WizzAir</a> and&nbsp;
-          <a href="https://www.eurowings.com/en.html">Eurowings</a>.
+        <h2>GETTING TO SHOTTLE HALL</h2>
+        <p>Being situated in Derbyshire, a popular summer tourist destination,
+          getting to Shottle Hall is relatively easy. The closest major city to
+          Shottle Hall is&nbsp;<a href="https://goo.gl/maps/d3AE4vXmwyMt37ST6">Derby</a>
+          and it is fairly well connected by both train and car.
         </p>
         <p>The second closest major airport is in <a
             href="https://goo.gl/maps/goc5oZWa3wC2">Dubrovnik</a>. It is about 5
@@ -208,13 +205,6 @@ const websiteContent = (
           a great location to visit. Have a look at the 'Things to do section'
           further down for more information on that.
         </p>
-        <p>As of the time of writing there are no&nbsp;
-          <a href="https://www.kayak.com/flights/NYC-SPU/2017-08-25/2017-09-02/2adults">direct
-            flights</a>&nbsp;
-          from the US or Canada to Croatia, so guests coming from there will
-          have to do at least one connection in a major European hub
-          such as Frankfurt, Zurich or Amsterdam.
-        </p>
 
         <hr/>
 
@@ -222,7 +212,7 @@ const websiteContent = (
           <img className="large-image" src="img/hvar.jpg" alt="Hvar town"/>
         </p>
 
-        <h2>FERRY TO THE ISLAND OF HVAR</h2>
+        <h2>GETTING THE BUS TO SHOTTLE HALL</h2>
         <p>The Split airport is located about 25km (16mi) from the harbour from
           where the ferries leave for Hvar. According to the bus
           company's <a
@@ -307,7 +297,7 @@ const websiteContent = (
 
         <hr/>
 
-        <h2>DRIVING</h2>
+        <h2>DRIVING TO SHOTTLE HALL</h2>
         <p>For those renting a car or driving to Croatia, we found the driving
           conditions on the island to be good and there is a
           parking spot right in the center of the town for 1 EUR/hour or 12
@@ -328,33 +318,56 @@ const websiteContent = (
 
         <hr/>
 
-        <h2>ACCOMMODATIONS</h2>
-        <p>Once on the island in Hvar Town there are various accommodation
-          options ranging from fancy hotels to renting an apartment
-          on <a href="https://goo.gl/uHTDYn">AirBnB</a>. The wedding will be in
-          the Amfora Resort so any accommodation within walking
-          distance from there should be fine.
+        <h2>ACCOMMODATION</h2>
+        <p>Once in Derbyshire there are various accommodation options ranging
+          from fancy hotels to renting an <a href="https://www.airbnb.co.uk/s/Derbyshire--England/homes?place_id=ChIJTRhgylBVd0gRYxzUrCNcT7w&refinement_paths%5B%5D=%2Fhomes&checkin=2021-07-31&checkout=2021-08-02">AirBnB</a>.
+          Shottle Hall is within comfortable walking distance from Idridgehay
+          and Shottle village but otherwise we'd heavily recommend a taxi or
+          the bus.
         </p>
-        <p>From our research we have found that hotels are fairly expensive and
-          there are very nice AirBnB options available, so we highly
-          recommend doing that.
+        <p>From our research we have found that renting an apartment in Derby
+          city is fairly expensive, however there are very nice AirBnB options
+          available as you get further out into the Peak District, so we highly
+          recommend booking in places such as Matlock, Belper, Crich or
+          Cromford.
         </p>
-        <p>For guests wishing to stay in a hotel, the <a
-            href="http://www.suncanihvar.com/">Suncani Hvar</a> chain of hotels
-          offers a 20%
-          discount using <SecretTooltip fnTooltip={() => {
-            return 'WEDDKALOIANJOCELYN';
-          }}>this code</SecretTooltip> (please click on the
-          'this' in order to show it). The code must be entered in the <i>"Corporate/Promo
-            Code ?"</i> section for the discounted prices to
-          apply and is valid for staying 5 days prior and 5 days after the
-          wedding day. While this code indeed reduces the listed prices,
-          we have found that booking through <a
-              href="https://goo.gl/2xzaIg">Expedia</a> or <a
-              href="https://goo.gl/z6zsZk">Hotels.com</a>&nbsp;
-          shows about the same prices or in some cases even cheaper, so please
-          bear that in mind as well.
+        <p>For guests wishing to stay in a hotel, there are a number of options
+          in both Derby city and slightly closer to the venue:
         </p>
+        <div className="row">
+          <div className="one-half column">
+            <h3><a href="https://www.thetalbot.co.uk/">The Talbot Hotel (6 rooms)</a></h3>
+            <p>Bridge Foot, Belper, Derbyshire, DE56 2UA</p>
+            <p>01773 822258</p>
+            <p>2.6 miles</p>
+
+            <h3><a href="https://www.premierinn.com">The Premier Inn</a></h3>
+            <p>Nottingham Road, Ripley, DE5 3QP</p>
+            <p>0871 5278934</p>
+            <p>7.4 miles</p>
+
+            <h3><a href="https://www.ihg.com">Holiday Inn</a></h3>
+            <p>Pride Park, Derby, DE24 8HX</p>
+            <p>0871 4234876</p>
+            <p>9.7 miles</p>
+          </div>
+          <div className="one-half column">
+            <h3><a href="https://www.thelionhotelbelper.co.uk/">The Lion Hotel (22 rooms)</a></h3>
+            <p>24 Bridge St, Belper DE56 1AX</p>
+            <p>01773 824033</p>
+            <p>3.1 miles</p>
+
+            <h3><a href="https://www.jurysinns.com/d">Jurys Inn</a></h3>
+            <p>King Street, Derby, DE1 3DB</p>
+            <p>01332 6210000</p>
+            <p>8.3 miles</p>
+
+            <h3><a href="https://www.travelodge.co.uk">Travelodge</a></h3>
+            <p>Pride Park, Derby, DE24 8HG</p>
+            <p>0871 9846434</p>
+            <p>10.2 miles</p>
+          </div>
+        </div>
       </TopicContainer>
 
       <TopicContainer id="thingstodo" title="Things to do in Derbyshire">
