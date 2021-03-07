@@ -58,10 +58,20 @@ const websiteContent = (
 
             <div className="one-half column">
               <p>
-                <a href="img/russell-baby.jpg"><img className="thumbnail"
-                                                src="img/russell-baby.jpg"
-                                                alt="Russell"/></a>
-                Russell is a...
+                <a href="img/russell-baby.jpg">
+                  <img className="thumbnail" src="img/russell-baby.jpg"
+                       alt="Russell"/></a>
+                Although from a distance, Russell may appear to be another
+                (handsome?) computer geek, his character is much more than this.
+                His energetic, driven nature took him from his home in Surrey,
+                to the Harry Potteresque world of Durham, where he enjoyed formals,
+                Engineering and making life-long friends. He then succumbed to
+                the dark side and entered the cut-throat world of banking, which
+                took him from London to the leafy streets of the Champs-Elysees.
+                He kept himself busy back on the Isle of Dogs, living opposite
+                a Windsurfing centre and Pub. His life changed for the better however,
+                when he met Katie at a bustling, Southbank salsa bar and a new,
+                wonderful adventure was embarked upon.
               </p>
             </div>
           </div>
