@@ -70,20 +70,18 @@ const websiteContent = (
         <hr/>
 
         <p>
-          <img className="large-image" src="img/borneo-proposal.jpg"
+          <img className="large-image" src="img/together.jpg"
                alt="Russell and Katie"/>
         </p>
 
         <h2>OUR STORY</h2>
         <p>
           Being children of the modern day and age, our story began with
-          venturing onto Tinder. As hesitant as Katie was to engage
-          herself with a complete stranger online (while Russell happily
-          explored with enthusiasm), on our first date it became quickly
-          apparent that we met the natural occurrences when 2 people meet and
-          all feelings of the unknown disappeared because at that moment
-          right in front of me I was meeting my best friend. As the cliche tale
-          goes, the rest is history.
+          venturing onto Tinder. As hesitant as Katie was to dabble with a
+          complete stranger online, Russell happily explored with enthusiasm.
+          On our first date it became quickly apparent that we met all the
+          conditions of mutual attraction when two people meet, and all feelings
+          of the unknown disappeared. As the cliche tale goes, the rest is history.
         </p>
       </TopicContainer>
 
@@ -104,60 +102,48 @@ const websiteContent = (
 
           <div className="row">
             <div className="one-half column">
-              <h2>CEREMONY</h2>
-              <p>15:00</p>
-              <p>
-                <a href="img/shottle-hall-ceremony.jpg"><img className="location-image"
-                                                  src="img/shottle-hall-ceremony.jpg"
-                                                  alt="Shottle Hall Ceremony"/></a>
-              </p>
-              <p style={{textAlign: "center"}}>
-                <a href="https://g.page/ShottleHall?share">Google Maps</a> | <a
-                  href="img/amber-valley-map.jpg">Local Tourist Map</a>
-              </p>
+              <h2>CEREMONY - 15:00</h2>
             </div>
             <div className="one-half column">
-              <h2>RECEPTION</h2>
-              <p>16:30</p>
-              <p>
-                <a href="img/svetimarak.jpg"><img className="location-image"
-                                                  src="img/svetimarak.jpg"
-                                                  alt="Sveti Marak (St Mark's)"/></a>
-              </p>
-              <p style={{textAlign: "center"}}>
-                <a href="https://g.page/ShottleHall?share">Google Maps</a> | <a
-                  href="img/city-hvar-map.jpg">Tourist Map</a>
-              </p>
+              <h2 style={{textAlign: "right"}}>EVENING MEAL - 17:30</h2>
             </div>
           </div>
+
+          <p>
+            <img className="large-image" src="img/shottle-hall-ceremony.jpg"
+                 alt="Shottle Hall Ceremony"/>
+          </p>
+          <p style={{textAlign: "center"}}>
+            <a href="https://g.page/ShottleHall?share">Google Maps</a> | <a
+              href="img/amber-valley-map.jpg">Local Tourist Map</a>
+          </p>
         </div>
 
         <hr/>
 
         <h2>ON THE WEDDING DAY</h2>
         <p>The ceremony will start at 15:00 at Shottle Hall courtyard.
-          Please arrive 10 to 15 minutes before so everybody can get
-          seated and so we can start on time.
+          Please arrive at least 20 to 30 minutes before so everybody can get
+          seated and so we can start on time. For those that fancy a bit of
+          socialising before the ceremony a bar onsite will be open from 14:00.
         </p>
-        <p>After the ceremony we will raise a glass of champagne and someone
-          will lead you to the reception where drinks and appetizers will
-          be served.
+        <p>After the ceremony we will raise a glass and there will be an
+          opportunity for further socialising and some outdoor games, weather
+          permitting.
         </p>
-        <p>
-          Wedding attire is summer formal. Gentlemen, we'd advise a light suit
-          with which you will be comfortable with the heat. And ladies,
-          you look pretty as you are, in your summer dresses :)
+        <p>Wedding attire is summer formal.
         </p>
 
         <hr/>
 
         <h2>DAY BEFORE THE WEDDING (31 July)</h2>
-        <p>Welcome cocktails will be held on the terrace of <a
-            href="https://goo.gl/Vd3ZJd">Restaurant Park Hvar</a> from 18:30 to
-          23:30.
+        <p>Informal drinks will be held at the&nbsp;
+          <a href="https://www.struttarms.co.uk/">Strutts Arms</a> pub from
+          17:00 onwards. It will be a drop in drop out event, so feel to come
+          and go as you please.
         </p>
         <p>
-          Cocktail night attire is dressy-casual.
+          Drinks attire is wear anything you want :)
         </p>
 
         <hr/>
@@ -194,8 +180,8 @@ const websiteContent = (
         <h2>GETTING TO SHOTTLE HALL</h2>
         <p>Being situated in Derbyshire, a popular summer tourist destination,
           getting to Shottle Hall is relatively easy. The closest major city to
-          Shottle Hall is&nbsp;<a href="https://goo.gl/maps/d3AE4vXmwyMt37ST6">Derby</a>
-          and it is fairly well connected by both train and car.
+          Shottle Hall is <a href="https://goo.gl/maps/d3AE4vXmwyMt37ST6">Derby</a>
+          &nbsp;and it is fairly well connected by both train and car.
         </p>
         <p>The second closest major airport is in <a
             href="https://goo.gl/maps/goc5oZWa3wC2">Dubrovnik</a>. It is about 5
@@ -209,10 +195,11 @@ const websiteContent = (
         <hr/>
 
         <p>
-          <img className="large-image" src="img/hvar.jpg" alt="Hvar town"/>
+          <img className="large-image" src="img/sixes-bus.jpg" alt="Sixes Bus"/>
         </p>
 
         <h2>GETTING THE BUS TO SHOTTLE HALL</h2>
+        <p>TODO: also talk about towns like Belper etc.</p>
         <p>The Split airport is located about 25km (16mi) from the harbour from
           where the ferries leave for Hvar. According to the bus
           company's <a
@@ -298,7 +285,7 @@ const websiteContent = (
         <hr/>
 
         <h2>DRIVING TO SHOTTLE HALL</h2>
-        <p>For those renting a car or driving to Croatia, we found the driving
+        <p>For those renting a car or driving to Shottle Hall, we found the driving
           conditions on the island to be good and there is a
           parking spot right in the center of the town for 1 EUR/hour or 12
           EUR/day.
@@ -332,8 +319,10 @@ const websiteContent = (
           Cromford.
         </p>
         <p>For guests wishing to stay in a hotel, there are a number of options
-          in both Derby city and slightly closer to the venue:
+          in both Derby city and slightly closer to the venue.
         </p>
+        <br/>
+
         <div className="row">
           <div className="one-half column">
             <h3><a href="https://www.thetalbot.co.uk/">The Talbot Hotel (6 rooms)</a></h3>
@@ -353,7 +342,7 @@ const websiteContent = (
           </div>
           <div className="one-half column">
             <h3><a href="https://www.thelionhotelbelper.co.uk/">The Lion Hotel (22 rooms)</a></h3>
-            <p>24 Bridge St, Belper DE56 1AX</p>
+            <p>24 Bridge St, Belper, DE56 1AX</p>
             <p>01773 824033</p>
             <p>3.1 miles</p>
 
@@ -477,12 +466,12 @@ const websiteContent = (
       <TopicContainer id="gifts" title="Gifts">
         <p>Dear family and friends,</p>
         <p>We feel honoured that you are all travelling a long way to come and
-          celebrate our special day with us. For this reason we don't
-          want anyone to feel obliged to buy us gifts. Your presence is the
+          celebrate our special day with us. For this reason we don't want
+          anyone to feel obliged to buy us gifts. Your presence is the
           biggest gift.
         </p>
-        <p>If you do feel that you want to give us a gift please see &nbsp;
-          <a href="https://www.gifts.com/">here</a>
+        <p>If you do feel that you want to give us a gift please see
+          &nbsp;<a href="https://www.gifts.com/">here</a>
         </p>
         <p>Thank you in advance!
         </p>
