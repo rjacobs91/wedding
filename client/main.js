@@ -61,17 +61,18 @@ const websiteContent = (
                 <a href="img/russell-baby.jpg">
                   <img className="thumbnail" src="img/russell-baby.jpg"
                        alt="Russell"/></a>
-                Although from a distance, Russell may appear to be another
+                Although from a distance, Russell might appear to be another
                 (handsome?) computer geek, his character is much more than this.
                 His energetic, driven nature took him from his home in Surrey,
                 to the Harry Potteresque world of Durham, where he enjoyed formals,
                 Engineering and making life-long friends. He then succumbed to
                 the dark side and entered the cut-throat world of banking, which
-                took him from London to the leafy streets of the Champs-Elysees.
-                He kept himself busy back on the Isle of Dogs, living opposite
-                a Windsurfing centre and Pub. His life changed for the better however,
-                when he met Katie at a bustling, Southbank salsa bar and a new,
-                wonderful adventure was embarked upon.
+                took him back to London and for a time, the leafy streets of the
+                Champs-Elysees. He kept himself busy back on the Isle of Dogs,
+                living opposite a Windsurfing centre and Pub. His life changed
+                for the better however, when he met Katie at a bustling,
+                Southbank salsa bar and a new, wonderful adventure was embarked
+                upon.
               </p>
             </div>
           </div>
@@ -159,14 +160,14 @@ const websiteContent = (
         <hr/>
 
         <h2>DAY AFTER THE WEDDING (2 August)</h2>
-        <p>Farewell brunch will be held at 11:00 at the&nbsp;
-          <a href="http://www.suncanihvar.com/amfora-hvar-grand-beach-resort/maestral-balkan-grill.html">Maestral
-            Restaurant</a>. It is located
-          just a few meters on the path that takes you to the <a
-              href="https://goo.gl/r9TFHt">wedding venue</a>.
+        <p>As Derbyshire is famous for its peaks and hills, we are planning on
+          organising a 3-4 hour hike to start at 12:00 in&nbsp;
+          <a href="https://goo.gl/maps/MCN1zKAP3e163MEW6">Belper</a>.
+          A number of people we suspect will already be staying here, but for
+          those staying in Derby city, Belper is a short drive along the A6.
         </p>
         <p>
-          Brunch attire is wear anything you want :)
+          Walking attire is recommended.
         </p>
       </TopicContainer>
 
@@ -192,14 +193,6 @@ const websiteContent = (
           getting to Shottle Hall is relatively easy. The closest major city to
           Shottle Hall is <a href="https://goo.gl/maps/d3AE4vXmwyMt37ST6">Derby</a>
           &nbsp;and it is fairly well connected by both train and car.
-        </p>
-        <p>The second closest major airport is in <a
-            href="https://goo.gl/maps/goc5oZWa3wC2">Dubrovnik</a>. It is about 5
-          hours away
-          from Hvar via a ferry, which is kind of far, but if you are planning
-          on doing some touring before or after the wedding it is
-          a great location to visit. Have a look at the 'Things to do section'
-          further down for more information on that.
         </p>
 
         <hr/>
@@ -295,19 +288,21 @@ const websiteContent = (
         <hr/>
 
         <h2>DRIVING TO SHOTTLE HALL</h2>
-        <p>For those renting a car or driving to Shottle Hall, we found the driving
-          conditions on the island to be good and there is a
-          parking spot right in the center of the town for 1 EUR/hour or 12
-          EUR/day.
+        <p>For those renting a car or driving to Shottle Hall from London way,
+          the easiest route is to take the M1 and exit at Junction 25 taking the
+          A52 towards Derby city centre. Take the A601, which connects with the
+          A6. Follow the A6 till just past the junction to Belper, taking a left
+          onto A517. When you see the Railway Inn pub take a right onto B5023,
+          finally taking a right onto White Lane. There is plenty of parking
+          available at Shottle Hall.
         </p>
-        <p>
-          Please note that unless you are coming by car to the island of Hvar,
-          there should not be a need for you to rent one. There are
-          many organized boat trips to discover the surrounding Dalmatian
-          islands and cabrio cars can be rented daily at a fairly decent
-          price from Hvar itself and the paperwork is not that much. For example
-          we rented this funny car for about 60 USD for a day trip:
+        <p>Please note that unless you are coming by car to Derbyshire,
+          there should not be a need for you to rent one. Buses are typically
+          once a hour on a Sunday anywhere along the A6 between Derby city and
+          the Peak District.
         </p>
+        <br/>
+
         <p>
           <img className="large-image" src="img/hvar-rental-car.jpg"
                alt="Day car rental"/>
@@ -469,7 +464,15 @@ const websiteContent = (
           <img className="large-image" src="img/dovedale.jpg"
                alt="Dovedale"/>
         </p>
-        <p>
+        <p>Dovedale is known for the River Dove and it’s impressive limestone
+          ravines, but the most iconic part of a trip to Dovedale has to be the
+          picturesque stepping stones…Following the River Dove up towards the
+          stepping stones you can cross and climb to the top of Thorpe Cloud,
+          giving fantastic panoramic views of the Peak District. The River Dove
+          flows through Milldale, which is a great starting point for the walk
+          down through Dovedale to the stepping stones, as well as Wolfscote
+          Dale and Beresford Dale. Here there are also a network of footpaths
+          and walks either along the river or over the surrounding countryside.
         </p>
       </TopicContainer>
 
