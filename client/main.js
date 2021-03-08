@@ -372,13 +372,11 @@ const websiteContent = (
         <p>Once famed for its hydro and spa treatments, Matlock's central
           location, scenic surroundings and public transport links make it a
           popular base for exploring the best of the Peak District and Derbyshire.
-
           Crown Square and the river Derwent lie at the heart of Matlock, and
           the gateway to award-winning Hall Leys Park with its boating lake,
           riverside walks, tennis courts and skateboard park. Hall Leys is the
           first of five beautifully-restored public parks stretching along the
           Derwent to Matlock Bath - a scenic option for a leisurely stroll.
-
           See&nbsp;
           <a href="https://www.visitpeakdistrict.com/explore/towns-and-villages/matlock-p680431">this
             article</a> for more information.
@@ -402,8 +400,24 @@ const websiteContent = (
           Dale and Beresford Dale. Here there are also a network of footpaths
           and walks either along the river or over the surrounding countryside.
         </p>
+        <br/>
 
-        {/* TODO: Museum of Making */}
+        <h2>
+          <a href="https://www.derbymuseums.org/museum-of-making/">MUSEUM OF MAKING</a>
+        </h2>
+        <p>
+          <img className="large-image" src="img/museum-of-making.jpg"
+               alt="Museum of Making"/>
+        </p>
+        <p>Celebrating the area’s rich history of innovation, the Museum of
+          Making in the Derwent Valley Mills UNESCO World Heritage Site will
+          be a contemporary space space telling Derby’s 300-year history of
+          making to inspire new creativity on the site of the world’s first
+          factory. This is opening in Spring 2021 and will be one of the first
+          Museums we visit post lockdown. See&nbsp;
+          <a href="https://www.derbymuseums.org/museum-of-making/about/">this
+            article</a> for more information.
+        </p>
         {/* TODO: Walk Along Edges - Froggat, Stanage, Curbar */}
       </TopicContainer>
 
@@ -415,7 +429,7 @@ const websiteContent = (
           biggest gift.
         </p>
         <p>If you do feel that you want to give us a gift please see
-          &nbsp;<a href="https://www.gifts.com/">here</a>
+          &nbsp;<a href="https://www.notonthehighstreet.com/wedding-gifts-department/best-wedding-gifts">here</a>
         </p>
         <p>Thank you in advance!
         </p>
