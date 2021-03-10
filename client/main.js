@@ -69,7 +69,7 @@ const websiteContent = (
                 the dark side and entered the cut-throat world of banking, which
                 took him back to London and for a time, the leafy streets of the
                 Champs-Elysees. He kept himself busy back on the Isle of Dogs,
-                living opposite a Windsurfing centre and Pub. His life changed
+                living opposite a Windsurfing centre and pub. His life changed
                 for the better however, when he met Katie at a bustling,
                 Southbank salsa bar and a new, wonderful adventure was embarked
                 upon.
@@ -136,11 +136,18 @@ const websiteContent = (
         <p>The ceremony will start at 15:00 at Shottle Hall courtyard.
           Please arrive at least 20 to 30 minutes before so everybody can get
           seated and so we can start on time. For those that fancy a bit of
-          socialising before the ceremony a bar onsite will be open from 14:00.
+          socialising before the ceremony, a bar onsite will be open from 14:00.
         </p>
         <p>After the ceremony we will raise a glass and there will be an
           opportunity for further socialising and some outdoor games, weather
           permitting.
+        </p>
+        <p>At 17:30 we will sit down to a three course meal where we'll get a
+          chance to listen to the speeches. Afterwards there will be a live band
+          who will play during a series of Ceilidh dances as well as some more
+          modern music.
+        </p>
+        <p>The bar will close at 00:00!
         </p>
         <p>Wedding attire is summer formal.
         </p>
