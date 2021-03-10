@@ -26,11 +26,6 @@ const mongodbUri = process.env.MONGODB_URI || 'mongodb://localhost:27017/wedding
 // Logging level
 winston.level = process.env.LOG_LEVEL || 'debug';
 
-if (process.env.APP_CONFIG) {
-    const config = JSON.parse(process.env.APP_CONFIG);
-    winston.info(JSON.stringify(config))
-}
-
 // The Web server chain
 const WebApp = express();
 WebApp.set('trust proxy', true);
