@@ -5,7 +5,7 @@
   "private": true,
   "bin": "./bin/app.bundle.js",
   "scripts": {
-    "start": "npx webpack && node ./bin/app.bundle.js"
+    "start": "./node_modules/.bin/webpack && node ./bin/app.bundle.js"
   },
   "repository": {
     "type": "git",
