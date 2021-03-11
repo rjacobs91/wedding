@@ -43,16 +43,17 @@ const websiteContent = (
                   <img className="thumbnail" src="img/katie-baby.jpg" alt="Katie"/>
                 </a>
                 Katie is an adventurous and thoughtful woman, who is as friendly
-                as she is bossy! Exciting as it is to be raised in the Derbyshire
-                Peak District, Katie made it her mission to live and explore as
-                much of the world as she could. Eagerly she set off to teach English
-                in China, followed by working in a Human Rights organisation in Cambodia.
-                After the culture shock of South East Asia Katie made her way
-                through the diverse streets of London, where she met Russell,
-                finally returning to leisurely ways of Derby. While Katie was
-                working in London at a Law firm she would reminisce about her
-                time in China realizing her passion in life, she knew her dream
-                job was to inspire the next generation as a teacher.
+                as she is bossy! Exciting as it is to be raised in Derby, the
+                heartland of Britain's Industrial Revolution, Katie made it
+                her mission to live and explore as much of the world as she could.
+                Eagerly she set off to teach English in China, followed by
+                working in a Human Rights organisation in Cambodia. After the
+                culture shock of South East Asia Katie made her way through the
+                diverse streets of London, where she met Russell, finally
+                returning to leisurely ways of Derby. While Katie was working in
+                London at a Law firm she would reminisce about her time in China
+                realizing her passion in life, she knew her dream job was to
+                inspire the next generation as a teacher.
               </p>
             </div>
 
