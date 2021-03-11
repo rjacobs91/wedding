@@ -69,7 +69,7 @@ const websiteContent = (
                 the dark side and entered the cut-throat world of banking, which
                 took him back to London and for a time, the leafy streets of the
                 Champs-Elysees. He kept himself busy back on the Isle of Dogs,
-                living opposite a Windsurfing centre and pub. His life changed
+                living opposite a windsurfing centre and pub. His life changed
                 for the better however, when he met Katie at a bustling,
                 Southbank salsa bar and a new, wonderful adventure was embarked
                 upon.
@@ -216,16 +216,15 @@ const websiteContent = (
           those staying in Derby or anywhere along the A6 (Duffield, Belper or
           Milford) the route would be the same. Trains run from St. Pancras to
           Derby every hour. From Derby Bus Station you should take the 6.1 bus
-          to Wirksworth Road. For times anywhere along the route please see this <a href="https://www.trentbarton.co.uk/services/sixes/timetable">timetable</a>.
+          to Wirksworth Road. For times anywhere along the route please see this&nbsp;
+          <a href="https://www.trentbarton.co.uk/services/sixes/timetable">timetable</a>.
         </p>
-
-        {/*todo bit more info needed here I feel*/}
 
         <hr/>
 
         <h2>DRIVING TO SHOTTLE HALL</h2>
-        <p>For those renting a car or driving to Shottle Hall from London way,
-          the easiest route is to take the M1 and exit at Junction 25 taking the
+        <p>For those renting a car or driving to Shottle Hall from London, the
+          easiest route is to take the M1 and exit at Junction 25 taking the
           A52 towards Derby city centre. Take the A601, which connects with the
           A6. Follow the A6 till just past the junction to Belper, taking a left
           onto A517. When you see the Railway Inn pub take a right onto B5023,
@@ -240,8 +239,8 @@ const websiteContent = (
         <br/>
 
         <p>
-          <img className="large-image" src="img/hvar-rental-car.jpg"
-               alt="Day car rental"/>
+          <img className="large-image" src="img/russell-car.jpg"
+               alt="Car rental"/>
         </p>
 
         <hr/>
@@ -272,14 +271,19 @@ const websiteContent = (
             <p>2.6 miles</p>
 
             <h3><a href="https://www.premierinn.com">The Premier Inn</a></h3>
-            <p>Nottingham Road, Ripley, DE5 3QP</p>
-            <p>0871 5278934</p>
-            <p>7.4 miles</p>
+            <p>Full Street, Derby, DE1 3AF</p>
+            <p>0333 234 6502</p>
+            <p>9.0 miles</p>
 
             <h3><a href="https://www.ihg.com">Holiday Inn</a></h3>
             <p>Pride Park, Derby, DE24 8HX</p>
             <p>0871 4234876</p>
             <p>9.7 miles</p>
+
+            <h3><a href="https://www.pentahotels.com/">Penta Hotel</a></h3>
+            <p>Pride Park, Derby, DE24 8PU</p>
+            <p>01332 376420</p>
+            <p>10.3 miles</p>
           </div>
           <div className="one-half column">
             <h3><a href="https://www.thelionhotelbelper.co.uk/">The Lion Hotel (22 rooms)</a></h3>
@@ -391,6 +395,27 @@ const websiteContent = (
         <br/>
 
         <h2>
+          <a href="https://letsgopeakdistrict.co.uk/matlock-bath/">MATLOCK BATH</a>
+        </h2>
+        <p>
+          <img className="large-image" src="img/matlock-bath.jpg"
+               alt="Matlock Bath"/>
+        </p>
+        <p>1.5 miles south of the town of Matlock, along the A6, Matlock Bath
+          is set in the beautiful gorge of the river Derwent, with attractive
+          riverside gardens, wooded hillsides and rocky limestone crags. A
+          popular tourist destination since the late 17th Century when the spa
+          waters were discovered, its heyday was in Victorian times when it
+          became known as "Little Switzerland" by the poet, Lord Byron. A
+          popular destination for families, bikers and fun seekers, there are
+          plenty of things to do and see. Half a mile south of the village is
+          the shopping complex and working textile museum at Masson Mills.
+          There are lots of places to eat and drink and the village has a
+          variety of gift shops.
+        </p>
+        <br/>
+
+        <h2>
           <a href="https://www.nationaltrust.org.uk/ilam-park-dovedale-and-the-white-peak/features/visiting-dovedale">DOVEDALE</a>
         </h2>
         <p>
@@ -425,18 +450,14 @@ const websiteContent = (
           <a href="https://www.derbymuseums.org/museum-of-making/about/">this
             article</a> for more information.
         </p>
-        {/* TODO: Walk Along Edges - Froggat, Stanage, Curbar */}
       </TopicContainer>
 
       <TopicContainer id="gifts" title="Gifts">
         <p>Dear family and friends,</p>
-        <p>We feel honoured that you are all travelling a long way to come and
-          celebrate our special day with us. For this reason we don't want
-          anyone to feel obliged to buy us gifts. Your presence is the
-          biggest gift.
-        </p>
-        <p>If you do feel that you want to give us a gift please see
-          &nbsp;<a href="https://www.notonthehighstreet.com/wedding-gifts-department/best-wedding-gifts">here</a>
+        <p>The biggest gift you can give us is your attendance at our wedding
+          and to have a merry time. If you do feel however that you want to give
+          us a gift, we would be very grateful to receive a donation towards our
+          honeymoon in Japan.
         </p>
         <p>Thank you in advance!
         </p>
