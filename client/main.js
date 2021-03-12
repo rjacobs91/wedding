@@ -50,7 +50,7 @@ const websiteContent = (
                 working in a human rights organisation in Cambodia. After the
                 culture shock of South East Asia, Katie made her way through the
                 diverse streets of London, where she met Russell, finally
-                returning to leisurely ways of Derby. While Katie was working in
+                returning to the leisurely ways of Derby. While Katie was working in
                 London at a law firm, she would reminisce about her time in China
                 realizing her passion in life, she knew her dream job was to
                 inspire the next generation as a teacher.
