@@ -105,9 +105,9 @@ const websiteContent = (
                  alt="Shottle Hall"/>
           </p>
           <p>Shottle Hall Estate is nestled amongst rolling hills and offers
-            stunning countryside views. Shottle Hall stands on the edge of Peak
-            District National Park and forms part of the famous Chatsworth House
-            Estate.
+            stunning countryside views. Shottle Hall stands on the edge of the
+            Peak District National Park and forms part of the famous Chatsworth
+            House Estate.
           </p>
 
           <hr/>
@@ -135,7 +135,7 @@ const websiteContent = (
 
         <h2>ON THE WEDDING DAY</h2>
         <p>The ceremony will start at 15:00 at Shottle Hall. Please arrive at
-          least 30 minutes before so everybody can get seated and so we can
+          least 30 minutes before, so everyone can get seated and so we can
           start on time. For those that fancy a bit of socialising before the
           ceremony, a bar onsite will be open from 14:00.
         </p>
@@ -143,12 +143,12 @@ const websiteContent = (
           there will be an opportunity for further socialising and some outdoor
           games, weather permitting.
         </p>
-        <p>At around 17:30 we will sit down to a three course meal where the
+        <p>At around 17:30, we will sit down to a three course meal where the
           speeches will also take place. Afterwards, there will be a live band
           who will play a series of Ceilidh songs as well as some more modern
           music. So please bring your dancing shoes!
         </p>
-        <p>The bar will close at 00:00!
+        <p>The bar will close at 00:00, so get your drinks orders in!
         </p>
         <p>Wedding attire is summer formal.
         </p>
@@ -187,7 +187,7 @@ const websiteContent = (
       <TopicContainer id="logistics" title="Logistics">
         <p>We understand that going to a different city (or country in some
           cases) to attend a wedding can be a daunting experience. That's why in
-          this section we have tried to compile information and links to help
+          this section, we have tried to compile information and links to help
           make your travel and hotel booking as simple as possible and to give
           you ideas for how to make a complete vacation out of your trip. Please
           read through it and if you feel you need any additional
@@ -217,8 +217,8 @@ const websiteContent = (
           those staying in Derby or anywhere along the A6 (Duffield, Belper or
           Milford) the route would be the same. Trains run from St. Pancras to
           Derby every hour. From Derby Bus Station you should take the 6.1 bus
-          to Wirksworth Road. For times anywhere along the route please see this&nbsp;
-          <a href="https://www.trentbarton.co.uk/services/sixes/timetable">timetable</a>.
+          to Wirksworth Road. For departure times anywhere along this route
+          please see this <a href="https://www.trentbarton.co.uk/services/sixes/timetable">timetable</a>.
         </p>
 
         <hr/>
@@ -254,13 +254,13 @@ const websiteContent = (
           the bus.
         </p>
         <p>From our research we have found that renting an apartment in Derby
-          city is fairly expensive, however there are very nice AirBnB options
-          available as you get further out into the Peak District, so we highly
-          recommend booking in places such as Matlock, Belper, Crich or
-          Cromford.
+          city centre can be fairly expensive, however there are very nice hotel
+          options in the city and AirBnB options available as you get further
+          out into the Peak District. Outside of Derby, we highly recommend
+          booking in places such as Matlock, Belper, Crich or Cromford.
         </p>
-        <p>For guests wishing to stay in a hotel, there are a number of options
-          in both Derby and slightly closer to the venue.
+        <p>For guests wishing to stay in a hotel please see recommendations
+          below.
         </p>
         <br/>
 
@@ -316,6 +316,24 @@ const websiteContent = (
         </p>
         <br/>
 
+        <h2>
+          <a href="https://www.derbymuseums.org/museum-of-making/">MUSEUM OF MAKING - DERBY</a>
+        </h2>
+        <p>
+          <img className="large-image" src="img/museum-of-making.jpg"
+               alt="Museum of Making"/>
+        </p>
+        <p>Celebrating the area’s rich history of innovation, the Museum of
+          Making in the Derwent Valley Mills UNESCO World Heritage Site will
+          be a contemporary space telling Derby’s 300-year history of making to
+          inspire new creativity on the site of the world’s first factory.
+          This will be opening for the first time in Spring 2021 and will be
+          one of the first museums we visit ourselves post lockdown. See&nbsp;
+          <a href="https://www.derbymuseums.org/museum-of-making/about/">this
+            article</a> for more information.
+        </p>
+        <br/>
+
         <h2><a
             href="https://www.lonelyplanet.com/england/the-midlands/bakewell">BAKEWELL</a>
         </h2>
@@ -347,7 +365,7 @@ const websiteContent = (
           even parts of Greater Manchester. It was the first National Park ever
           created in the UK, back in 1951, and it now receives more than 10 million
           visitors every year. People come here for the stunning countryside,
-          charming towns and villages,and the freedom to escape from the crowds
+          charming towns and villages, and the freedom to escape from the crowds
           on miles of footpaths, bridleways and cycle trails.
           &nbsp;<a href="https://www.peakdistrict.org/">This website</a> has
           plenty of information on all the wonderful things you can do in the
@@ -370,7 +388,8 @@ const websiteContent = (
           Chatsworth also houses the Devonshire Collection, one of Europe's most
           significant art collections, which is continually added to, encompassing
           Old Masters to contemporary ceramics and artefacts from Ancient Egypt
-          to cutting edge modern sculpture.
+          to cutting edge modern sculpture. The grounds of the estate are also
+          stunning and well worth a visit on their own.
         </p>
         <br/>
 
@@ -410,8 +429,8 @@ const websiteContent = (
           became known as "Little Switzerland" by the poet, Lord Byron. A
           popular destination for families, bikers and fun seekers, there are
           plenty of things to do and see. Half a mile south of the village is
-          the shopping complex and working textile museum at Masson Mills.
-          There are lots of places to eat and drink and the village has a
+          the shopping complex and historical working textile museum at Masson
+          Mills. There are lots of places to eat and drink and the village has a
           variety of gift shops.
         </p>
         <br/>
@@ -432,24 +451,6 @@ const websiteContent = (
           down through Dovedale to the stepping stones, as well as Wolfscote
           Dale and Beresford Dale. Here there are also a network of footpaths
           and walks either along the river or over the surrounding countryside.
-        </p>
-        <br/>
-
-        <h2>
-          <a href="https://www.derbymuseums.org/museum-of-making/">MUSEUM OF MAKING - DERBY</a>
-        </h2>
-        <p>
-          <img className="large-image" src="img/museum-of-making.jpg"
-               alt="Museum of Making"/>
-        </p>
-        <p>Celebrating the area’s rich history of innovation, the Museum of
-          Making in the Derwent Valley Mills UNESCO World Heritage Site will
-          be a contemporary space telling Derby’s 300-year history of making to
-          inspire new creativity on the site of the world’s first factory.
-          This will be opening for the first time in Spring 2021 and will be
-          one of the first Museums we visit ourselves post lockdown. See&nbsp;
-          <a href="https://www.derbymuseums.org/museum-of-making/about/">this
-            article</a> for more information.
         </p>
       </TopicContainer>
 
