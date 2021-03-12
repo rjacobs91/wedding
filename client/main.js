@@ -46,12 +46,12 @@ const websiteContent = (
                 as she is bossy! Exciting as it is to be raised in Derby, the
                 heartland of Britain's Industrial Revolution, Katie made it
                 her mission to live and explore as much of the world as she could.
-                Eagerly she set off to teach English in China, followed by
-                working in a Human Rights organisation in Cambodia. After the
-                culture shock of South East Asia Katie made her way through the
+                Eagerly, she set off to teach English in China, followed by
+                working in a human rights organisation in Cambodia. After the
+                culture shock of South East Asia, Katie made her way through the
                 diverse streets of London, where she met Russell, finally
                 returning to leisurely ways of Derby. While Katie was working in
-                London at a Law firm she would reminisce about her time in China
+                London at a law firm, she would reminisce about her time in China
                 realizing her passion in life, she knew her dream job was to
                 inspire the next generation as a teacher.
               </p>
@@ -63,10 +63,10 @@ const websiteContent = (
                   <img className="thumbnail" src="img/russell-baby.jpg"
                        alt="Russell"/></a>
                 Although from a distance, Russell might appear to be another
-                (handsome?) computer geek, his character is much more than this.
+                (handsome) computer geek, his character is much more than this.
                 His energetic, driven nature took him from his home in Surrey,
                 to the Harry Potteresque world of Durham, where he enjoyed formals,
-                Engineering and making life-long friends. He then succumbed to
+                engineering and making life-long friends. He then succumbed to
                 the dark side and entered the cut-throat world of banking, which
                 took him back to London and for a time, the leafy streets of the
                 Champs-Elysees. He kept himself busy back on the Isle of Dogs,
@@ -91,9 +91,9 @@ const websiteContent = (
           Being children of the modern day and age, our story began with
           venturing onto Tinder. As hesitant as Katie was to dabble with a
           complete stranger online, Russell happily explored with enthusiasm.
-          On our first date it became quickly apparent that we met all the
-          conditions of mutual attraction when two people meet, and all feelings
-          of the unknown disappeared. As the cliche tale goes, the rest is history.
+          On our first date, the combination of salsa and tequila definitely
+          enhanced the sparks felt on our initial meeting, and as the cliche
+          goes, the rest is history.
         </p>
       </TopicContainer>
 
@@ -104,7 +104,7 @@ const websiteContent = (
             <img className="large-image" src="img/shottle-hall.jpg"
                  alt="Shottle Hall"/>
           </p>
-          <p>The Shottle Hall Estate is nestled amongst rolling hills and offers
+          <p>Shottle Hall Estate is nestled amongst rolling hills and offers
             stunning countryside views. Shottle Hall stands on the edge of Peak
             District National Park and forms part of the famous Chatsworth House
             Estate.
@@ -134,19 +134,19 @@ const websiteContent = (
         <hr/>
 
         <h2>ON THE WEDDING DAY</h2>
-        <p>The ceremony will start at 15:00 at Shottle Hall courtyard.
-          Please arrive at least 20 to 30 minutes before so everybody can get
-          seated and so we can start on time. For those that fancy a bit of
-          socialising before the ceremony, a bar onsite will be open from 14:00.
+        <p>The ceremony will start at 15:00 at Shottle Hall. Please arrive at
+          least 30 minutes before so everybody can get seated and so we can
+          start on time. For those that fancy a bit of socialising before the
+          ceremony, a bar onsite will be open from 14:00.
         </p>
-        <p>After the ceremony we will raise a glass and there will be an
-          opportunity for further socialising and some outdoor games, weather
-          permitting.
+        <p>After the ceremony, we will raise a glass of prosecco or two and
+          there will be an opportunity for further socialising and some outdoor
+          games, weather permitting.
         </p>
-        <p>At 17:30 we will sit down to a three course meal where we'll get a
-          chance to listen to the speeches. Afterwards there will be a live band
-          who will play during a series of Ceilidh dances as well as some more
-          modern music.
+        <p>At around 17:30 we will sit down to a three course meal where the
+          speeches will also take place. Afterwards, there will be a live band
+          who will play a series of Ceilidh songs as well as some more modern
+          music. So please bring your dancing shoes!
         </p>
         <p>The bar will close at 00:00!
         </p>
@@ -157,9 +157,9 @@ const websiteContent = (
 
         <h2>DAY BEFORE THE WEDDING (31 July)</h2>
         <p>Informal drinks will be held at the&nbsp;
-          <a href="https://www.struttarms.co.uk/">Strutts Arms</a> pub from
-          17:00 onwards. It will be a drop in drop out event, so feel to come
-          and go as you please.
+          <a href="https://www.struttarms.co.uk/">Strutts Arms</a> pub in
+          Milford from 17:00 onwards. It will be a drop in drop out event, so
+          feel to come and go as you please.
         </p>
         <p>
           Drinks attire is wear anything you want :)
@@ -169,10 +169,10 @@ const websiteContent = (
 
         <h2>DAY AFTER THE WEDDING (2 August)</h2>
         <p>As Derbyshire is famous for its peaks and hills, we are planning on
-          organising a 3-4 hour hike to start at 12:00 in&nbsp;
+          organising a 3-4 hour hike to start at around 12:00 in&nbsp;
           <a href="https://goo.gl/maps/MCN1zKAP3e163MEW6">Belper</a>.
           A number of people we suspect will already be staying here, but for
-          those staying in Derby city, Belper is a short drive along the A6.
+          those staying in Derby, Belper is a short drive along the A6.
         </p>
         <p>
           Walking attire is recommended.
@@ -202,7 +202,7 @@ const websiteContent = (
           Shottle Hall is <a href="https://goo.gl/maps/d3AE4vXmwyMt37ST6">Derby</a>
           &nbsp;and it is fairly well connected by both train and car. However,
           public transport does not run all night so a taxi back from the venue
-          will be required. If enough people are staying in close proximity we
+          will be required. If enough people are staying in close proximity, we
           will investigate booking a minibus.
         </p>
 
@@ -247,7 +247,7 @@ const websiteContent = (
         <hr/>
 
         <h2>ACCOMMODATION</h2>
-        <p>Once in Derbyshire there are various accommodation options ranging
+        <p>Once in Derbyshire, there are various accommodation options ranging
           from fancy hotels to renting an <a href="https://www.airbnb.co.uk/s/Derbyshire--England/homes?place_id=ChIJTRhgylBVd0gRYxzUrCNcT7w&refinement_paths%5B%5D=%2Fhomes&checkin=2021-07-31&checkout=2021-08-02">AirBnB</a>.
           Shottle Hall is within comfortable walking distance from Idridgehay
           and Shottle village but otherwise we'd heavily recommend a taxi or
@@ -260,7 +260,7 @@ const websiteContent = (
           Cromford.
         </p>
         <p>For guests wishing to stay in a hotel, there are a number of options
-          in both Derby city and slightly closer to the venue.
+          in both Derby and slightly closer to the venue.
         </p>
         <br/>
 
@@ -322,10 +322,10 @@ const websiteContent = (
         <p>
           <img className="large-image" src="img/bakewell.jpg" alt="Bakewell old town"/>
         </p>
-        <p>Perhaps best known for its unique and delicious Pudding, Bakewell has
+        <p>Perhaps best known for its unique and delicious pudding, Bakewell has
           many more tempting treats to offer - ranging from shopping and
           specialist markets to relaxing strolls and special events.
-          Idyllically situated on the banks of the river Wye, the biggest town
+          Idyllically situated on the banks of the River Wye, the biggest town
           in the Peak District National Park's mellow stone buildings, medieval
           five-arched stone bridge and quaint courtyards are a magnet for
           painters, photographers and sightseers alike. See&nbsp;
@@ -363,7 +363,7 @@ const websiteContent = (
                alt="Chatsworth"/>
         </p>
         <p>Chatsworth, home of the Duke and Duchess of Devonshire, is set in the
-          heart of the Peak District in Derbyshire, on the banks of the river
+          heart of the Peak District in Derbyshire, on the banks of the River
           Derwent. <a href="https://www.chatsworth.org">Chatsworth House</a> has
           over 30 rooms to explore, from the magnificent Painted Hall, to the
           family-used chapel, regal State Rooms and beautiful Sculpture Gallery.
@@ -384,7 +384,7 @@ const websiteContent = (
         <p>Once famed for its hydro and spa treatments, Matlock's central
           location, scenic surroundings and public transport links make it a
           popular base for exploring the best of the Peak District and Derbyshire.
-          Crown Square and the river Derwent lie at the heart of Matlock, and
+          Crown Square and the River Derwent lie at the heart of Matlock, and
           the gateway to award-winning Hall Leys Park with its boating lake,
           riverside walks, tennis courts and skateboard park. Hall Leys is the
           first of five beautifully-restored public parks stretching along the
@@ -403,7 +403,7 @@ const websiteContent = (
                alt="Matlock Bath"/>
         </p>
         <p>1.5 miles south of the town of Matlock, along the A6, Matlock Bath
-          is set in the beautiful gorge of the river Derwent, with attractive
+          is set in the beautiful gorge of the River Derwent, with attractive
           riverside gardens, wooded hillsides and rocky limestone crags. A
           popular tourist destination since the late 17th Century when the spa
           waters were discovered, its heyday was in Victorian times when it
@@ -436,7 +436,7 @@ const websiteContent = (
         <br/>
 
         <h2>
-          <a href="https://www.derbymuseums.org/museum-of-making/">MUSEUM OF MAKING</a>
+          <a href="https://www.derbymuseums.org/museum-of-making/">MUSEUM OF MAKING - DERBY</a>
         </h2>
         <p>
           <img className="large-image" src="img/museum-of-making.jpg"
@@ -444,10 +444,10 @@ const websiteContent = (
         </p>
         <p>Celebrating the area’s rich history of innovation, the Museum of
           Making in the Derwent Valley Mills UNESCO World Heritage Site will
-          be a contemporary space space telling Derby’s 300-year history of
-          making to inspire new creativity on the site of the world’s first
-          factory. This is opening in Spring 2021 and will be one of the first
-          Museums we visit post lockdown. See&nbsp;
+          be a contemporary space telling Derby’s 300-year history of making to
+          inspire new creativity on the site of the world’s first factory.
+          This will be opening for the first time in Spring 2021 and will be
+          one of the first Museums we visit ourselves post lockdown. See&nbsp;
           <a href="https://www.derbymuseums.org/museum-of-making/about/">this
             article</a> for more information.
         </p>
