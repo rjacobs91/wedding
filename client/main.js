@@ -169,7 +169,7 @@ const websiteContent = (
 
         <h2>DAY AFTER THE WEDDING (2 August)</h2>
         <p>As Derbyshire is famous for its peaks and hills, we are planning on
-          organising a 3-4 hour hike to start at around 12:00 in&nbsp;
+          organising hike to start at around 12:00 in&nbsp;
           <a href="https://goo.gl/maps/MCN1zKAP3e163MEW6">Belper</a>.
           A number of people we suspect will already be staying here, but for
           those staying in Derby, Belper is a short drive along the A6.
