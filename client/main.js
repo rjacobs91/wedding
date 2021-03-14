@@ -158,7 +158,7 @@ const websiteContent = (
         <h2>DAY BEFORE THE WEDDING (31 July)</h2>
         <p>Informal drinks will be held at the&nbsp;
           <a href="https://www.struttarms.co.uk/">Strutts Arms</a> pub in
-          Milford from 17:00 onwards. It will be a drop in drop out event, so
+          Milford from 18:00 till 21:00. It will be a drop in drop out event, so
           feel to come and go as you please.
         </p>
         <p>
@@ -329,7 +329,7 @@ const websiteContent = (
             <p>01773 824033</p>
             <p>3.1 miles</p>
 
-            <h3><a href="https://www.jurysinns.com/d">Jurys Inn</a></h3>
+            <h3><a href="https://www.jurysinns.com/hotels/derby">Jurys Inn</a></h3>
             <p>King Street, Derby, DE1 3DB</p>
             <p>01332 6210000</p>
             <p>8.3 miles</p>
