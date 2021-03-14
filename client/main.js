@@ -246,6 +246,43 @@ const websiteContent = (
 
         <hr/>
 
+        <h2>TAXIS</h2>
+        <p>Although some of you may decide to get public transport to Shottle
+          Hall on our wedding day we heavily advise getting a taxi back to your
+          accommodation, as public transport stops running early on a Sunday.
+          Below is a list of local taxi firms for both Belper and Derby. Uber
+          does run in Derby and the area local to Shottle Hall but is generally
+          less reliable than local taxis firms.
+        </p>
+        <br/>
+
+        <div className="row">
+          <div className="one-half column">
+            <h3>Albatross Cars</h3>
+            <p>14A Midland Rd, Derby DE1 2SN</p>
+            <p>01332 345345</p>
+            <h3>Heage Cars</h3>
+            <p>170 Park Rd, Belper, DE56 2AB</p>
+            <p>07817 354309</p>
+            <h3>Scott's Taxis</h3>
+            <p>65 King St, Belper DE56 1QA</p>
+            <p>01773 880880</p>
+          </div>
+          <div className="one-half column">
+            <h3>Western Taxis</h3>
+            <p>45 Nelson St, Derby DE1 2RU</p>
+            <p>01332 331331</p>
+            <h3>Derwent Cars</h3>
+            <p>18 Yardley Way, Belper DE56 0ES</p>
+            <p>01773 824824</p>
+            <h3>Redline Cars</h3>
+            <p>17 Wheeldon Ave, Belper DE56 1GX</p>
+            <p>07752 195541</p>
+          </div>
+        </div>
+
+        <hr/>
+
         <h2>ACCOMMODATION</h2>
         <p>Once in Derbyshire, there are various accommodation options ranging
           from fancy hotels to renting an <a href="https://www.airbnb.co.uk/s/Derbyshire--England/homes?place_id=ChIJTRhgylBVd0gRYxzUrCNcT7w&refinement_paths%5B%5D=%2Fhomes&checkin=2021-07-31&checkout=2021-08-02">AirBnB</a>.
@@ -266,7 +303,7 @@ const websiteContent = (
 
         <div className="row">
           <div className="one-half column">
-            <h3><a href="https://www.thetalbot.co.uk/">The Talbot Hotel (6 rooms)</a></h3>
+            <h3><a href="https://www.thetalbot.co.uk/">The Talbot Hotel</a></h3>
             <p>Bridge Foot, Belper, Derbyshire, DE56 2UA</p>
             <p>01773 822258</p>
             <p>2.6 miles</p>
@@ -287,7 +324,7 @@ const websiteContent = (
             <p>10.3 miles</p>
           </div>
           <div className="one-half column">
-            <h3><a href="https://www.thelionhotelbelper.co.uk/">The Lion Hotel (22 rooms)</a></h3>
+            <h3><a href="https://www.thelionhotelbelper.co.uk/">The Lion Hotel</a></h3>
             <p>24 Bridge St, Belper, DE56 1AX</p>
             <p>01773 824033</p>
             <p>3.1 miles</p>
