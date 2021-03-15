@@ -331,7 +331,7 @@ const websiteContent = (
 
             <h3><a href="https://www.jurysinns.com/hotels/derby">Jurys Inn</a></h3>
             <p>King Street, Derby, DE1 3DB</p>
-            <p>01332 6210000</p>
+            <p>01332 621000</p>
             <p>8.3 miles</p>
 
             <h3><a href="https://www.travelodge.co.uk">Travelodge</a></h3>
