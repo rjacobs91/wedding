@@ -261,9 +261,9 @@ const websiteContent = (
             <h3>Albatross Cars</h3>
             <p>14A Midland Rd, Derby DE1 2SN</p>
             <p>01332 345345</p>
-            <h3>Heage Cars</h3>
-            <p>170 Park Rd, Belper, DE56 2AB</p>
-            <p>07817 354309</p>
+            <h3>Steve's Cars</h3>
+            <p>56-58 Bridge St, Belper DE56 1AZ</p>
+            <p>01773 525323</p>
             <h3>Scott's Taxis</h3>
             <p>65 King St, Belper DE56 1QA</p>
             <p>01773 880880</p>
