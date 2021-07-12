@@ -40,18 +40,22 @@ const websiteContent = (
             <div className="one-half column">
               <p>
                 <a href="img/katie-baby.jpg">
-                  <img className="thumbnail" src="img/katie-baby.jpg" alt="Katie"/>
+                  <img className="thumbnail" src="img/katie-baby.jpg"
+                       alt="Katie"/>
                 </a>
                 Katie is an adventurous and thoughtful woman, who is as friendly
                 as she is bossy! Exciting as it is to be raised in Derby, the
                 heartland of Britain's Industrial Revolution, Katie made it
-                her mission to live and explore as much of the world as she could.
+                her mission to live and explore as much of the world as she
+                could.
                 Eagerly, she set off to teach English in China, followed by
                 working in a human rights organisation in Cambodia. After the
                 culture shock of South East Asia, Katie made her way through the
                 diverse streets of London, where she met Russell, finally
-                returning to the leisurely ways of Derby. While Katie was working in
-                London at a law firm, she would reminisce about her time in China
+                returning to the leisurely ways of Derby. While Katie was
+                working in
+                London at a law firm, she would reminisce about her time in
+                China
                 realizing her passion in life, she knew her dream job was to
                 inspire the next generation as a teacher.
               </p>
@@ -65,7 +69,8 @@ const websiteContent = (
                 Although from a distance, Russell might appear to be another
                 (handsome) computer geek, his character is much more than this.
                 His energetic, driven nature took him from his home in Surrey,
-                to the Harry Potteresque world of Durham, where he enjoyed formals,
+                to the Harry Potteresque world of Durham, where he enjoyed
+                formals,
                 engineering and making life-long friends. He then succumbed to
                 the dark side and entered the cut-throat world of banking, which
                 took him back to London and for a time, the leafy streets of the
@@ -199,7 +204,8 @@ const websiteContent = (
         <h2>GETTING TO SHOTTLE HALL</h2>
         <p>Being situated in Derbyshire, a popular summer tourist destination,
           getting to Shottle Hall is relatively easy. The closest major city to
-          Shottle Hall is <a href="https://goo.gl/maps/d3AE4vXmwyMt37ST6">Derby</a>
+          Shottle Hall is <a
+              href="https://goo.gl/maps/d3AE4vXmwyMt37ST6">Derby</a>
           &nbsp;and it is fairly well connected by both train and car. However,
           public transport does not run all night so a taxi back from the venue
           will be required. If enough people are staying in close proximity, we
@@ -218,7 +224,8 @@ const websiteContent = (
           Milford) the route would be the same. Trains run from St. Pancras to
           Derby every hour. From Derby Bus Station you should take the 6.1 bus
           to Wirksworth Road. For departure times anywhere along this route
-          please see this <a href="https://www.trentbarton.co.uk/services/sixes/timetable">timetable</a>.
+          please see this <a
+              href="https://www.trentbarton.co.uk/services/sixes/timetable">timetable</a>.
         </p>
 
         <hr/>
@@ -285,7 +292,8 @@ const websiteContent = (
 
         <h2>ACCOMMODATION</h2>
         <p>Once in Derbyshire, there are various accommodation options ranging
-          from fancy hotels to renting an <a href="https://www.airbnb.co.uk/s/Derbyshire--England/homes?place_id=ChIJTRhgylBVd0gRYxzUrCNcT7w&refinement_paths%5B%5D=%2Fhomes&checkin=2021-07-31&checkout=2021-08-02">AirBnB</a>.
+          from fancy hotels to renting an <a
+              href="https://www.airbnb.co.uk/s/Derbyshire--England/homes?place_id=ChIJTRhgylBVd0gRYxzUrCNcT7w&refinement_paths%5B%5D=%2Fhomes&checkin=2021-07-31&checkout=2021-08-02">AirBnB</a>.
           Shottle Hall is within comfortable walking distance from Idridgehay
           and Shottle village but otherwise we'd heavily recommend a taxi or
           the bus.
@@ -324,12 +332,14 @@ const websiteContent = (
             <p>10.3 miles</p>
           </div>
           <div className="one-half column">
-            <h3><a href="https://www.thelionhotelbelper.co.uk/">The Lion Hotel</a></h3>
+            <h3><a href="https://www.thelionhotelbelper.co.uk/">The Lion
+              Hotel</a></h3>
             <p>24 Bridge St, Belper, DE56 1AX</p>
             <p>01773 824033</p>
             <p>3.1 miles</p>
 
-            <h3><a href="https://www.jurysinns.com/hotels/derby">Jurys Inn</a></h3>
+            <h3><a href="https://www.jurysinns.com/hotels/derby">Jurys Inn</a>
+            </h3>
             <p>King Street, Derby, DE1 3DB</p>
             <p>01332 621000</p>
             <p>8.3 miles</p>
@@ -354,7 +364,8 @@ const websiteContent = (
         <br/>
 
         <h2>
-          <a href="https://www.derbymuseums.org/museum-of-making/">MUSEUM OF MAKING - DERBY</a>
+          <a href="https://www.derbymuseums.org/museum-of-making/">MUSEUM OF
+            MAKING - DERBY</a>
         </h2>
         <p>
           <img className="large-image" src="img/museum-of-making.jpg"
@@ -375,7 +386,8 @@ const websiteContent = (
             href="https://www.lonelyplanet.com/england/the-midlands/bakewell">BAKEWELL</a>
         </h2>
         <p>
-          <img className="large-image" src="img/bakewell.jpg" alt="Bakewell old town"/>
+          <img className="large-image" src="img/bakewell.jpg"
+               alt="Bakewell old town"/>
         </p>
         <p>Perhaps best known for its unique and delicious pudding, Bakewell has
           many more tempting treats to offer - ranging from shopping and
@@ -400,10 +412,10 @@ const websiteContent = (
         <p>The Peak District National Park covers 555 square miles of the most
           beautiful areas of Derbyshire, Staffordshire, Cheshire, Yorkshire and
           even parts of Greater Manchester. It was the first National Park ever
-          created in the UK, back in 1951, and it now receives more than 10 million
-          visitors every year. People come here for the stunning countryside,
-          charming towns and villages, and the freedom to escape from the crowds
-          on miles of footpaths, bridleways and cycle trails.
+          created in the UK, back in 1951, and it now receives more than 10
+          million visitors every year. People come here for the stunning
+          countryside, charming towns and villages, and the freedom to escape
+          from the crowds on miles of footpaths, bridleways and cycle trails.
           &nbsp;<a href="https://www.peakdistrict.org/">This website</a> has
           plenty of information on all the wonderful things you can do in the
           National Park.
@@ -423,7 +435,8 @@ const websiteContent = (
           over 30 rooms to explore, from the magnificent Painted Hall, to the
           family-used chapel, regal State Rooms and beautiful Sculpture Gallery.
           Chatsworth also houses the Devonshire Collection, one of Europe's most
-          significant art collections, which is continually added to, encompassing
+          significant art collections, which is continually added to,
+          encompassing
           Old Masters to contemporary ceramics and artefacts from Ancient Egypt
           to cutting edge modern sculpture. The grounds of the estate are also
           stunning and well worth a visit on their own.
@@ -439,7 +452,8 @@ const websiteContent = (
         </p>
         <p>Once famed for its hydro and spa treatments, Matlock's central
           location, scenic surroundings and public transport links make it a
-          popular base for exploring the best of the Peak District and Derbyshire.
+          popular base for exploring the best of the Peak District and
+          Derbyshire.
           Crown Square and the River Derwent lie at the heart of Matlock, and
           the gateway to award-winning Hall Leys Park with its boating lake,
           riverside walks, tennis courts and skateboard park. Hall Leys is the
@@ -452,7 +466,8 @@ const websiteContent = (
         <br/>
 
         <h2>
-          <a href="https://letsgopeakdistrict.co.uk/matlock-bath/">MATLOCK BATH</a>
+          <a href="https://letsgopeakdistrict.co.uk/matlock-bath/">MATLOCK
+            BATH</a>
         </h2>
         <p>
           <img className="large-image" src="img/matlock-bath.jpg"
@@ -496,7 +511,15 @@ const websiteContent = (
         <p>The biggest gift you can give us is your attendance at our wedding
           and to have a merry time. If you do feel however that you want to give
           us a gift, we would be very grateful to receive a donation towards our
-          honeymoon in Japan.
+          honeymoon in Japan (when are are allowed to go). Our bank details are:
+        </p>
+        <p>Account name: JACOBS R & K</p>
+        <p>Account number: 11664649</p>
+        <p>Sort code: 60-24-28</p>
+        <p>Alternatively as we've just bought a new home, we would be equally
+          as grateful for something like a John Lewis voucher, a surprise gift
+          of your choice or something from <a
+              href="https://www.johnlewis.com/wish-list/RFDKNKT">here.</a>
         </p>
         <p>Thank you in advance!
         </p>
