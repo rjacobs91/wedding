@@ -162,12 +162,12 @@ const websiteContent = (
 
         <h2>DAY BEFORE THE WEDDING (31 July)</h2>
         <p>Informal drinks will be held at the&nbsp;
-          <a href="https://www.struttarms.co.uk/">Strutts Arms</a> pub in
-          Milford from 18:00 till 21:00. It will be a drop in drop out event, so
+          <a href="https://whitehartduffield.co.uk/">White Hart</a> pub in
+          Duffield from 18:00 till 20:00. It will be a drop in drop out event, so
           feel to come and go as you please.
         </p>
-        <p>
-          Drinks attire is wear anything you want :)
+        <p>Drinks attire is wear anything you want :). However it will be
+          outside although partially undercover, so prepare accordingly.
         </p>
 
         <hr/>
